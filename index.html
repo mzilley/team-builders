@@ -4,19 +4,30 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
     <nav>
-		<div>TEAM Builders</div>
-		<div style="display: flex">
-			<div style="margin: 8px">Our Work</div>
-			<div style="margin: 8px">Leave a review</div>
-			<div style="margin: 8px">Contact us</div>
-		</div>
+		<div id="main-nav-logo">TEAM Builders</div>
+		<div id="main-menu-container">
+			<a href="#">Our Work</a>
+			<a href="#">Leave a Review</a>
+      <a href="#">Contact Us</a>
+      <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+      </div>
+      <button class="openbtn" onclick="openNav()">☰</button>
+    </div>
+    </div>
+
 	</nav>
-	<div id="main-content" style="display: flex; flex-direction: column; justify-content: top; align-items: center">
+	<div id="main-content">
 		<h1 id="main-content-title">Ready to Renovate Your House?<br>GET IN TOUCH WITH TEAM BUILDERS LTD NOW</h1>
     <div id="main-content-service-selector-wrapper">
 	  <div id="main-content-service-selector">
@@ -52,12 +63,12 @@
     </div> 
     </div>
 	</div>
-  <section style="display: flex; justify-content: space-between">
+  <section style="display: flex; justify-content: space-between; margin-top: 15%;">
     <div>
     <h1>MAKE YOUR HOUSE LOOK LIKE NEW</h1>
     <p style="max-width: 500px; line-height: 2;">Our home remodeler should be the top choice for your home renocation project. With more than a decade of experience, the crew at TEAM Builders LTD has what it takes to transform your current house into your dream home. There is no project too big or too small for us.</p>
     </div>
-    <img src="dwell2.jpg" style="max-height: 200px;">
+    <img src="images/home/dwell2.jpg" style="max-height: 200px;">
   </section>
   <section class="gradient-banner">
   <span>

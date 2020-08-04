@@ -6,6 +6,7 @@
 
 a {
   text-decoration: none;
+  color: #666;
 }
 
 body {
@@ -15,34 +16,50 @@ body {
 nav {
   height: 85px;
   width: 100%;
-  background-color: green;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+#main-nav-logo {
+  padding: 0 35px;
+}
+
+#main-menu-container, #main-content, #main-content-service-selector, #main-content-service-cards, .service-card, .service-card-header {
+  display: flex;
+}
+
+#main-menu-container > a {
+  margin: 8px;
+}
+
 #main-content {
-  background-image: url("dwell.jpg");
+  /* background-image: url(/images/home/dwell.jpg); */
+  background: #9AB858;
   height: 90vh;
   background-position: center;
   background-size: cover;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
 }
 
 #main-content-service-selector {
-  display: flex;
   margin: 0 auto;
   width: 90%;
   justify-content: space-around;
   background-color: white;
   padding: 16px;
   font-size: 20px;
+  box-shadow: 0px 0px 8px #999;
 }
 
 #main-content-title {
   color: white;
   text-align: center;
-  text-shadow: 2px 2px 4px black;
+  text-shadow: 0px 0px 8px #666;;
   margin-top: 15%;
+  font-weight: 400;
 }
 
 #main-content-service-selector-wrapper {
@@ -61,7 +78,6 @@ nav {
 
 #main-content-service-cards {
   margin-top: 5%;
-  display: flex;
   justify-content: center;
   height: 40vh;
   width: 100%;
@@ -70,8 +86,8 @@ nav {
 .service-card {
   background-color: #fff;
   width: 30%;
-  display: flex;
   margin: 8px;
+  box-shadow: 0px 0px 8px #999;
 }
 
 .service-card-header {
@@ -80,7 +96,6 @@ nav {
   padding: 5px 0;
   height: 40px;
   width: 100%;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -99,4 +114,59 @@ nav {
   font-size: 36px;
   margin: 24px;
   height: 150px;
+}
+
+
+/* Main Menu */
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #f9f9f9;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 90px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #818181;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 24px;
+  cursor: pointer;
+  color: #666;
+  padding: 0px 35px;
+  border: none;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.openbtn:hover {
+  color: #999;
+}
+
+#main {
+  transition: margin-left .3s;
+  padding: 16px;
 }
