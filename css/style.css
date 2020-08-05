@@ -9,6 +9,10 @@ a {
   color: #666;
 }
 
+p {
+  font-size: 14px;;
+}
+
 body {
   margin: 0 auto;
 }
@@ -31,6 +35,8 @@ nav {
 
 #main-menu-container > a {
   margin: 8px;
+  text-transform: uppercase;
+  font-size: 14px;
 }
 
 #main-content {
@@ -46,7 +52,7 @@ nav {
 
 #main-content-service-selector {
   margin: 0 auto;
-  width: 90%;
+  width: 75%;
   justify-content: space-around;
   background-color: white;
   padding: 16px;
@@ -54,18 +60,27 @@ nav {
   box-shadow: 0px 0px 8px #999;
 }
 
-#main-content-title {
+#main-content h1, #main-content h2 {
   color: white;
   text-align: center;
-  text-shadow: 0px 0px 8px #666;;
-  margin-top: 15%;
+  text-shadow: 0px 0px 8px #666;
   font-weight: 400;
+}
+
+#main-content h1 {
+  margin-top: 15%;
+  margin-bottom: 0;
+}
+
+#main-content h2 {
+  margin: 0;
+  font-size: 22px;
 }
 
 #main-content-service-selector-wrapper {
   width: 95%;
   position: relative;
-  top: 100px;
+  top: 75px;
 }
 
 #main-content-service-selector > div {
@@ -74,24 +89,28 @@ nav {
 
 #main-content-service-selector a {
   padding: 0 8px;
+  text-transform: uppercase;
+  font-size: 18px;
 }
 
-#main-content-service-cards {
-  margin-top: 5%;
+[id^="main-content-service-cards"] {
+  margin-top: 75px;
   justify-content: center;
   height: 40vh;
   width: 100%;
+  display: flex;
 }
 
 .service-card {
   background-color: #fff;
-  width: 30%;
-  margin: 8px;
+  height: 100%;
+  margin: 0 8px;
   box-shadow: 0px 0px 8px #999;
+  flex-direction: column;
 }
 
 .service-card-header {
-  background-color: lightgray;
+  background-color: #fff;
   margin: 0;
   padding: 5px 0;
   height: 40px;
@@ -100,10 +119,29 @@ nav {
   justify-content: center;
 }
 
-.service-card-header h2 {
+.service-card-header h3 {
   color: #fff;
   font-weight: 400;
   font-size: 16px;
+  text-align: center;
+}
+
+.service-card-image {
+  height: 100%;
+}
+
+.service-card-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.active {
+  border-bottom: 1.5px solid #666;;
+}
+
+.hidden {
+  display: none;
 }
 
 .gradient-banner {
@@ -134,10 +172,10 @@ nav {
 .sidebar a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 18px;
-  color: #818181;
+  font-size: 14px;
   display: block;
   transition: 0.3s;
+  text-transform: uppercase;
 }
 
 .sidebar a:hover {
@@ -169,4 +207,14 @@ nav {
 #main {
   transition: margin-left .3s;
   padding: 16px;
+}
+
+/* Media Queries */
+@media (min-width: 768px) and (max-width: 992px) {
+  #main-content-service-selector {
+    width: 90%;
+  }
+  #main-content-service-selector-wrapper {
+    top: 125px;
+  }
 }

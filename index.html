@@ -3,64 +3,140 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
+    <title>T.E.A.M. Builders Ltd.</title>
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body>
     <script src="js/script.js"></script>
     <nav>
-		<div id="main-nav-logo">TEAM Builders</div>
+		<div id="main-nav-logo">
+      <img src="images/home/team-builders-logo.png" alt="Team Builders Limited Logo">
+    </div>
 		<div id="main-menu-container">
 			<a href="#">Our Work</a>
 			<a href="#">Leave a Review</a>
       <a href="#">Contact Us</a>
-      <div id="mySidebar" class="sidebar">
+      <div id="main-menu" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Clients</a>
-        <a href="#">Contact</a>
+        <a href="#">Interior Remodeling</a>
+        <a href="#">Exterior Remodeling</a>
+        <a href="#">Shed Homes</a>
+        <a href="#">Our Work</a>
+        <a href="#">Our Process</a>
+        <a href="#">Contact Us</a>
       </div>
       <button class="openbtn" onclick="openNav()">☰</button>
     </div>
-    </div>
-
+   </div>
 	</nav>
 	<div id="main-content">
-		<h1 id="main-content-title">Ready to Renovate Your House?<br>GET IN TOUCH WITH TEAM BUILDERS LTD NOW</h1>
+    <h1>Ready to Renovate Your House?</h1>
+    <h2>GET IN TOUCH WITH TEAM BUILDERS LTD NOW</h2>
     <div id="main-content-service-selector-wrapper">
-	  <div id="main-content-service-selector">
-      <div><a href="#">Interior</a></div>
-      <div><a href="#">Exterior</a></div>
-      <div><a href="#">More</a></div>
-    </div>
-    <div id="main-content-service-cards">
+      <div id="main-content-service-selector">
+        <div id="select-interior" class="menu active"><a href="#interior-remodeling">Interior Remodeling</a></div>
+        <div id="select-exterior" class="menu"><a href="#exterior-remodeling">Exterior Remodeling</a></div>
+        <div id="select-shed-homes" class="menu"><a href="#shed-homes">Shed Homes</a></div>
+      </div>
+    <div id="main-content-service-cards-interior">
       <div class="service-card">
         <div class="service-card-header">
-          <h2><a href="#">Other</a></h2>
+          <h3><a href="#">Bathroom</a></h3>
         </div>
         <div class="service-card-image">
-
+          <img src="images/home/bathroom.jpeg" alt="Bathroom">
         </div>
       </div>
       <div class="service-card">
         <div class="service-card-header">
-          <h2><a href="#">Other</a></h2>
+          <h3><a href="#">Basement</a></h3>
         </div>
         <div class="service-card-image">
-
+          <img src="images/home/basement.jpeg" alt="Basement">
         </div>
       </div>
       <div class="service-card">
         <div class="service-card-header">
-          <h2><a href="#">Other</a></h2>
+          <h3><a href="#">Kitchen</a></h3>
         </div>
         <div class="service-card-image">
-
+          <img src="images/home/kitchen.jpeg" alt="Basement">
         </div>
       </div>  
-    </div> 
+     </div> 
+
+     <div id="main-content-service-cards-exterior" class="hidden">
+      <div class="service-card">
+        <div class="service-card-header">
+          <h3><a href="#">Fences</a></h3>
+        </div>
+        <div class="service-card-image">
+          <img src="images/home/bathroom.jpeg" alt="Bathroom">
+        </div>
+      </div>
+      <div class="service-card">
+        <div class="service-card-header">
+          <h3><a href="#">Roofing</a></h3>
+        </div>
+        <div class="service-card-image">
+          <img src="images/home/basement.jpeg" alt="Basement">
+        </div>
+      </div>
+      <div class="service-card">
+        <div class="service-card-header">
+          <h3><a href="#">Decks</a></h3>
+        </div>
+        <div class="service-card-image">
+          <img src="images/home/kitchen.jpeg" alt="Basement">
+        </div>
+      </div>  
+      <div class="service-card">
+        <div class="service-card-header">
+          <h3><a href="#">Pergola</a></h3>
+        </div>
+        <div class="service-card-image">
+          <img src="images/home/basement.jpeg" alt="Basement">
+        </div>
+      </div>
+      <div class="service-card">
+        <div class="service-card-header">
+          <h3><a href="#">Siding</a></h3>
+        </div>
+        <div class="service-card-image">
+          <img src="images/home/kitchen.jpeg" alt="Basement">
+        </div>
+      </div> 
+     </div> 
+
+     <div id="main-content-service-cards-shed-homes" class="hidden">
+      <div class="service-card">
+        <div class="service-card-header">
+          <h3><a href="#">Shed Houses (Shouses)</a></h3>
+        </div>
+        <div class="service-card-image">
+          <img src="images/home/bathroom.jpeg" alt="Bathroom">
+        </div>
+      </div>
+      <div class="service-card">
+        <div class="service-card-header">
+          <h3><a href="#">Agriculture & Commercial Buildings</a></h3>
+        </div>
+        <div class="service-card-image">
+          <img src="images/home/basement.jpeg" alt="Basement">
+        </div>
+      </div>
+      <div class="service-card">
+        <div class="service-card-header">
+          <h3><a href="#">Event Venues</a></h3>
+        </div>
+        <div class="service-card-image">
+          <img src="images/home/kitchen.jpeg" alt="Basement">
+        </div>
+      </div>  
+     </div> 
+
     </div>
 	</div>
   <section style="display: flex; justify-content: space-between; margin-top: 15%;">
