@@ -29,11 +29,11 @@ nav {
   padding: 0 35px;
 }
 
-#main-menu-container, #main-content, #main-content-service-selector, #main-content-service-cards, .service-card, .service-card-header {
+#main-menu-container, #feature-menu, #main-content, #main-content-service-selector, #main-content-service-cards, .service-card, .service-card-header {
   display: flex;
 }
 
-#main-menu-container > a {
+#main-menu-container #feature-menu > a {
   margin: 8px;
   text-transform: uppercase;
   font-size: 14px;
@@ -137,11 +137,12 @@ nav {
 }
 
 .active {
-  border-bottom: 1.5px solid #666;;
+  border-bottom: 1.5px solid #666;
 }
 
 .hidden {
   display: none;
+
 }
 
 .gradient-banner {
@@ -204,6 +205,15 @@ nav {
   color: #999;
 }
 
+[id^="collapsed-menu"] {
+  margin-left: 8px;
+  display: none;
+}
+
+.sidebar [id^="collapsed-menu"] a {
+  text-transform: none;
+}
+
 #main {
   transition: margin-left .3s;
   padding: 16px;
@@ -216,5 +226,14 @@ nav {
   }
   #main-content-service-selector-wrapper {
     top: 125px;
+  }
+  .service-card {
+    height: 75%;
+  }
+}
+
+@media (max-width: 768px) {
+  #feature-menu {
+    display: none;
   }
 }

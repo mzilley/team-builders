@@ -15,17 +15,39 @@
       <img src="images/home/team-builders-logo.png" alt="Team Builders Limited Logo">
     </div>
 		<div id="main-menu-container">
-			<a href="#">Our Work</a>
-			<a href="#">Leave a Review</a>
-      <a href="#">Contact Us</a>
+      <div id="feature-menu">
+        <a href="#">Our Work</a>
+        <a href="#">Leave a Review</a>
+        <a href="#">Contact Us</a>
+      </div>
       <div id="main-menu" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <a href="#">Interior Remodeling</a>
-        <a href="#">Exterior Remodeling</a>
-        <a href="#">Shed Homes</a>
-        <a href="#">Our Work</a>
-        <a href="#">Our Process</a>
-        <a href="#">Contact Us</a>
+        <div id="collapseMenu">
+          <a href="#">Home</a>
+          <a href="#" id="collapse-toggle-interior">Interior Remodeling</a>
+            <div id="collapsed-menu-interior">
+              <a href="#">Bathroom Renovations</a>
+              <a href="#">Basement Renovations</a>
+              <a href="#">Kitchen Renovations</a>
+            </div>
+          <a href="#" id="collapse-toggle-exterior">Exterior Remodeling</a>
+          <div id="collapsed-menu-exterior">
+            <a href="#">Fences</a>
+            <a href="#">Roofing</a>
+            <a href="#">Decks</a>
+            <a href="#">Pergolas</a>
+            <a href="#">Siding</a>
+          </div>
+          <a href="#" id="collapse-toggle-shed">Shed Homes</a>
+          <div id="collapsed-menu-shed">
+            <a href="#">Shed Houses "Shouses"</a>
+            <a href="#">Agriculture & Commercial Buildings</a>
+            <a href="#">Event Venues</a>
+          </div>
+          <a href="#">Our Work</a>
+          <a href="#">Our Process</a>
+          <a href="#">Contact Us</a>
+       </div>
       </div>
       <button class="openbtn" onclick="openNav()">☰</button>
     </div>
