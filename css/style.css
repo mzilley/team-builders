@@ -57,7 +57,7 @@ nav {
   background-color: white;
   padding: 16px;
   font-size: 20px;
-  box-shadow: 0px 0px 8px #999;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 5px 14px 2px;
 }
 
 #main-content h1, #main-content h2 {
@@ -105,7 +105,7 @@ nav {
   background-color: #fff;
   height: 100%;
   margin: 0 8px;
-  box-shadow: 0px 0px 8px #999;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 5px 14px 2px;
   flex-direction: column;
 }
 
@@ -155,7 +155,6 @@ nav {
   height: 150px;
 }
 
-
 /* Main Menu */
 .sidebar {
   height: 100%;
@@ -165,6 +164,7 @@ nav {
   top: 0;
   right: 0;
   background-color: #f9f9f9;
+  /* box-shadow: 0px 0px 8px #999; */
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 90px;
@@ -180,7 +180,7 @@ nav {
 }
 
 .sidebar a:hover {
-  color: #818181;
+  color: #555;
 }
 
 .sidebar .closebtn {
@@ -225,7 +225,7 @@ nav {
     width: 90%;
   }
   #main-content-service-selector-wrapper {
-    top: 125px;
+    top: 175px;
   }
   .service-card {
     height: 75%;
@@ -236,4 +236,45 @@ nav {
   #feature-menu {
     display: none;
   }
+  [id^="main-content-service-cards"], #main-content-service-selector {
+    flex-direction: column;
+    height: auto;
+  }
+  #main-content {
+    height: 92vh;
+    /* Remove background image cover */
+    /* If this doesn't work, remove service selector from main-content div */
+  }
+  #main-content-service-selector > div {
+    text-align: center;
+    margin: 8px auto;
+  }
+  .service-card {
+    height: 250px;
+    margin: 5%;
+  }
+}
+
+/* Icons */
+.fa-angle-double-right, .fa-google{
+  position: relative;
+}
+
+.fa-angle-double-right {
+  transition: 0.2s ease-in-out all;
+  font-size: 18px!important;
+  top: 1px;
+  left: 10px;
+}
+
+.fa-google {
+  font-size: 14px!important;
+  left: 5px;
+}
+
+.rotate {
+  -ms-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
 }

@@ -2,8 +2,9 @@ jQuery(document).ready(function($) {
       var display = function(remodel_type, title) {
         // Toogle Block
         $('#' + remodel_type + '').css('display', 'flex');
+
       
-        // Change Title Color
+        // Add Active Class
         $('.menu').removeClass('active');
         $(title).addClass('active');
       }
@@ -28,34 +29,26 @@ jQuery(document).ready(function($) {
 
       // Main Menu Collapse
       $('#collapse-toggle-interior').on('click', function() {
-        $('#collapsed-menu-interior').toggle('fast');
+        $('#collapsed-menu-interior').slideToggle();
+        $(this).children().toggleClass("rotate"); 
       });
 
       $('#collapse-toggle-exterior').on('click', function() {
-        $('#collapsed-menu-exterior').toggle('fast');
+        $('#collapsed-menu-exterior').slideToggle();
+        $(this).children().toggleClass("rotate"); 
       });
 
       $('#collapse-toggle-shed').on('click', function() {
-        $('#collapsed-menu-shed').toggle('fast');
+        $('#collapsed-menu-shed').slideToggle();
+        $(this).children().toggleClass("rotate"); 
       });
-
-    //   // Open Main Menu   
-    //   $('.closebtn').on('click', function() {
-    //     $('#main-menu').css('width', '375px');
-    //     $('#main').css('margin-left', '375px');
-    //   });
-
-    // // Open Main Menu   
-    //   $('.openbtn').on('click', function() {
-    //     $('#main-menu').css('width', '0');
-    //     $('#main').css('margin-left', '0');
-    //   });   
 });
 
 
 function openNav() {
 document.getElementById("main-menu").style.width = "375px";
 document.getElementById("main").style.marginLeft = "375px";
+// If width is below 525, width = 100% and add padding to close button
 }
   
 function closeNav() {
