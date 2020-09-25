@@ -1,0 +1,125 @@
+* {
+  font-family: 'PT Sans', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media screen and (preferes-reduced-motion: reduce) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, a, p, li {
+  color: #666;
+  font-weight: 400;
+}
+
+.subpage h1 {
+  margin: 0;
+}
+
+h4 {
+  text-transform: uppercase;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+hr {
+  margin: 15px 32.5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p, li {
+  font-size: 16px;
+  margin: 0;
+  line-height: 1.5;
+}
+
+li {
+  padding: 3% 0;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+ol {
+  padding-inline-start: 15px;  
+}
+
+ol li {
+  padding: 1% 0;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.subpage {
+  position: relative;
+  top: 50px;
+  text-align: center;
+  padding: 5%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.subpage.align-left {
+  text-align: left;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.mr-5 {
+  margin-right: 5%;
+}
+
+.center-focus {
+  width: 60%;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.row {
+  display: flex;
+  padding: 2.5% 5%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.row.reverse {
+  flex-direction: column-reverse;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.col {
+  width: 100%;
+}
+
+.col img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.green-link {
+  color: #9AB858;
+  text-decoration: underline;
+}

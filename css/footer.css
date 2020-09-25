@@ -1,0 +1,33 @@
+/* Footer */
+#footer-container {
+  padding: 5%;
+  background: #f6f6f6;
+  display: flex;
+}
+
+.footer-column {
+  margin: 0 1.5%;
+}
+
+#footer-address {
+  margin-top: 5%;
+}
+
+#address p {
+  margin: 0;
+}
+
+#sub-footer-container {
+  padding: 20px 0;
+}
+
+#sub-footer-container p {
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: 0;
+}
+
+#sub-footer-container span {
+  margin: 1%;
+  font-size: 24px;
+}

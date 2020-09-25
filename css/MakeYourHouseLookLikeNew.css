@@ -1,0 +1,25 @@
+#below-main-content-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 5% 10%; 
+  color: grey;
+}
+
+#below-main-content-section img {
+  width: 100%;
+}
+
+.below-main-content, .below-main-content-image {
+  width: 47.5%;
+}
+
+@media (max-width: 768px) {
+  #below-main-content-section {
+    padding: 5%;
+  }
+
+  #below-main-content-section > div {
+    margin-right: 16px;
+  }
+}

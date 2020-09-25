@@ -1,0 +1,18 @@
+.image-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.our-work-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.our-work-image {
+  margin: 1%;
+  max-width: 280px;
+  max-height: 300px;
+}

@@ -1,0 +1,28 @@
+/* Icons */
+.fa-angle-double-right, .fa-google{
+  position: relative;
+}
+
+.fa-angle-double-right {
+  transition: 0.2s ease-in-out all;
+  font-size: 18px!important;
+  top: 1px;
+  left: 10px;
+}
+
+.fa-angle-double-right:before {
+  position: relative;
+  bottom: 2px;
+}
+
+.fa-google {
+  font-size: 14px!important;
+  left: 5px;
+}
+
+.rotate {
+  -ms-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}

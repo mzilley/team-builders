@@ -1,0 +1,181 @@
+/* Subpage */
+.h1 {
+  font-size: 24px;
+  text-transform: none;
+  margin: 2% 0;
+}
+.hero-nav {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 85px;
+  display: -webkit-box;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  height: 450px;
+  min-height: 105px;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-nav.exterior-remodeling {
+  background-image: url(/images/work/decks/1554128996356_large_wooden_deck.jpg);
+}
+
+.hero-nav.interior-remodeling {
+  background-image: url(/images/work/basement-renovations/Stairs-Inside.jpg);
+}
+
+.hero-nav.bathroom {
+  background-image: url(/images/home/bathroom.jpeg);
+}
+
+.hero-nav.basement {
+  background-image: url(/images/work/basement-renovations/Stairs-Inside.jpg);
+}
+
+.hero-nav.kitchen {
+  background-image: url(/images/home/kitchen.jpeg);
+}
+
+.hero-nav.fencing {
+  background-image: url(/images/work/fencing/final-fence.png);
+}
+
+.hero-nav.deck {
+  background-image: url(/images/work/decks/1.JPG);
+  background-position: top;
+}
+
+.hero-nav.pergola {
+  background-image: url(/images/work/pergolas/p1.jpg);   background-position: center 25%;
+}
+
+.hero-nav.siding {
+  background-image: url(/images/work/siding/Siding_1.jpg);
+}
+
+.hero-nav.shed {
+  background-image: url(/images/work/shed-houses/red-shed.png);
+}
+
+.hero-nav.shed-homes, .hero-nav.roofing {
+  background-image: url(/images/work/shed-houses/Website-roofing-final.png);
+}
+
+.hero-nav.commercial {
+  background-image: url(/images/work/commercial/9.png);
+}
+
+.hero-nav.event {
+  background-image: url(/images/work/event-venues/event-venue-1.png);
+}
+
+.hero-nav.team {
+  background-image: url(/images/team/founders.jpg);
+  background-position: 0 20%;
+}
+
+.hero-nav.process {
+  background-image: url(/images/work/our-process.jpg);
+}
+
+.hero-nav .hero-nav__inner {
+  position: relative;
+  top: 50%;
+  text-align: center;
+  background-color: white;
+  padding: 30px 35px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 14px 2px;
+  z-index: 998;
+}
+.hero-nav h1 {
+  color: #666;
+  font-size: 32px;
+  margin: 0 0 2% 0;
+}
+.hero-nav span {
+  padding: 15px;
+  color: #9AB858;
+  font-size: 24px;
+}
+.hero-nav:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transition: background 600ms;
+  transition: background 600ms;
+}
+.subpage-content {
+  text-align: center;
+  width: 65%;
+  margin: 10% auto 0 auto;
+  line-height: 1.625;
+}
+.text-align-left {
+  text-align: left;
+}
+.col .feature-container {
+   margin-left: -2%;
+   margin-top: 5%;
+}
+.col .feature-container div.feature, {
+  width: 100%;
+  min-width: 0%;
+}
+.feature {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  text-align: left;
+  padding: 15px;
+  width: 300px;
+  margin: 2%;
+  min-height: 50px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 14px 2px;
+}
+
+.col .feature-container .feature, {
+  width: 100%;
+  min-width: 100%;
+}
+
+.feature p {
+  background: #fff;
+  padding: 10px;
+}
+
+.feature a:hover {
+  text-decoration: underline;
+}
+
+/* Our Process */
+.fa-check-circle {
+  color: #9AB858;
+  margin-right: 15px;
+  font-size: 20px!important;
+}
+.process-details-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5%;
+}
+.process-list-item {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  background: #fff;
+  margin: 1%;
+  padding: 15px;
+  min-height: 65px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 5px 14px 2px;
+}
+
+.process-list-item p {
+  line-height: 1;
+}

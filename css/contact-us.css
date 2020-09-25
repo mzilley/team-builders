@@ -1,0 +1,70 @@
+.contact-info-container {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-info-container i {
+  font-size: 48px;
+  color: #9AB858;
+  margin-bottom: 10px;
+}
+
+.contact-info-container a {
+  text-decoration: underline;
+}
+
+.contact-info-container ul, .contact-info-container li {
+  margin: 0;
+  padding-top: 0;
+  line-height: 1;
+}
+
+.contact-info-container .address, .contact-info-container .call, .contact-info-container .hours {
+margin: 3%;
+}
+
+.team {
+  max-width: 100%;
+}
+
+/* iframe {
+  display: none;
+} */
+
+#calendly-scheduler {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background: #00A2FF;
+  color: #fff;
+}
+
+#calendly-scheduler span {
+  font-size: 12px;
+  display: block;
+  text-align: center;
+}
+
+.calendly {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #f9f9f9;
+}
+
+iframe {
+  width: 75%;
+  height: 75%;
+  margin: 0 auto;
+  position: fixed;
+  z-index: 9999;
+  top: 10%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

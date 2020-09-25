@@ -1,0 +1,101 @@
+/*!
+ * jQuery Accordion 0.0.1
+ * (c) 2014 Victor Fernandez <victor@vctrfrnndz.com>
+ * MIT Licensed.
+ */
+
+/* Requirements */
+
+[data-accordion] [data-content] {
+    overflow: hidden;
+    max-height: 0;
+}
+
+/* Basic Theme */
+
+[data-accordion] {
+    line-height: 1;
+}
+
+[data-control],
+[data-content] > * {
+    padding: 10px;
+}
+
+[data-content] [data-accordion] {
+    border: 0;
+    padding: 0;
+}
+
+[data-accordion] [data-control] {
+    position: relative;
+    /* padding-right: 40px; */
+    display: flex;
+    align-items: center;
+}
+
+[data-accordion] > [data-control]:after {
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    font-size: 25px;
+    font-weight: 200;
+    color: #444;
+    height: 15px;
+    width: 24px;
+    background-size: 50%;
+}
+
+[data-accordion].open > [data-control]:after {
+    -webkit-transform: rotate(-180deg); 
+    -ms-transform: rotate(-180deg); 
+    transform: rotate(-180deg); 
+}
+
+[data-accordion] {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 14px 2px;
+  padding: 15px;
+  display: flex;
+  margin-bottom: 15px;
+  border-right: 5px solid #9AB858;
+  flex-direction: column;
+}
+
+.roofing-accordion {
+  padding: 0;
+}
+
+[data-accordion]:hover {
+  cursor: pointer;
+}
+
+[data-accordion] [data-content] {
+  display: inline-block;
+}
+
+.our-work-accordion .open [data-accordion] [data-content] {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.our-work-accordion img {
+  width: 45%;
+  vertical-align: top;
+}
+
+.roofing-accordion p {
+  text-align: left;
+}
+
+.covid-accordion {
+  background: #9AB858;
+}
+
+.covid-accordion [data-accordion] [data-control] {
+  padding-right: 0!important;
+}
+
+.strong {
+  font-weight: 700;
+}

@@ -3,56 +3,30 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>T.E.A.M. Builders Ltd.</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <title>T.E.A.M. Builders Ltd. | Home Remodeling in Cedar Falls, IA</title>
+    <link rel="shortcut icon" type="image/png" href="/images/favicon.png">
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <meta property "og:image" content="/images/home/team-builders-logo.png" />
+    <meta property "og:image:type" content="/image/png" />   
+    <meta property "og:image:width" content="250" />  
+    <meta property "og:image:height" content="50" />  
+    <meta property "og:image:alt" content="T.E.A.M. Builders Logo" />  
   </head>
   <body>
-    <script src="js/script.js"></script>
-    <nav>
-		<div id="main-nav-logo">
-      <img src="images/home/team-builders-logo.png" alt="Team Builders Limited Logo">
-    </div>
-		<div id="main-menu-container">
-      <div id="feature-menu">
-        <a href="#">Our Work</a>
-        <a href="#">Contact Us</a>
-        <a href="#">Leave a Review<span class="fa fa-google" aria-hidden="true"></span></a>
-      </div>
-      <div id="main-menu" class="sidebar">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <div id="collapseMenu">
-          <a href="#">Home</a>
-          <a href="#" id="collapse-toggle-interior">Interior Remodeling<span class="fa fa-angle-double-right" aria-hidden="true"></span></a>
-            <div id="collapsed-menu-interior">
-              <a href="#">Bathroom Renovations</a>
-              <a href="#">Basement Renovations</a>
-              <a href="#">Kitchen Renovations</a>
-            </div>
-          <a href="#" id="collapse-toggle-exterior">Exterior Remodeling<span class="fa fa-angle-double-right" aria-hidden="true"></span></a>
-          <div id="collapsed-menu-exterior">
-            <a href="#">Fences</a>
-            <a href="#">Roofing</a>
-            <a href="#">Decks</a>
-            <a href="#">Pergolas</a>
-            <a href="#">Siding</a>
-          </div>
-          <a href="#" id="collapse-toggle-shed">Shed Homes<span class="fa fa-angle-double-right" aria-hidden="true"></span></a>
-          <div id="collapsed-menu-shed">
-            <a href="#">Shed Houses "Shouses"</a>
-            <a href="#">Agriculture & Commercial Buildings</a>
-            <a href="#">Event Venues</a>
-          </div>
-          <a href="#">Our Work</a>
-          <a href="#">Our Process</a>
-          <a href="#">Contact Us</a>
-       </div>
-      </div>
-      <button class="openbtn" onclick="openNav()">☰</button>
-    </div>
-   </div>
-	</nav>
+  <nav id="navbar"></nav>
+  <div class="covid-accordion alert" data-accordion>
+  <div data-control><p class="accordion-toggle">We're open for business! Learn more about our COVID-19 procedures and protocols.</p></div>
+  <div data-content>
+    <p class="strong">We're open for business!</p>
+    <p>Safety is our first priority and shared value with our customers and vendors. Out of an abundance of caution, we have taken the following steps to address COVID-19:</p>
+    <p class="strong">Office Procedures</p>
+    <p>Our office will be closed to the general public. Sales will be conducted via phone. Sales consultations will be done via appointment only. During the appointment, we will adopt a no touch, no handshake policy.</p>
+    <p class="strong">Field Operations</p>
+    <p style="margin-bottom: 10px;">We will adopt a no touch, no handshake policy for all field operations. Customers are not to touch or handle any paperwork. We will ask for electronic signatures or verbal agreements from our customers.</p>
+  </div>
+  </div>
 	<div id="main-content">
     <h1>Ready to Renovate Your House?</h1>
     <h2>GET IN TOUCH WITH TEAM BUILDERS LTD NOW</h2>
@@ -62,7 +36,16 @@
         <div id="select-exterior" class="menu"><a href="#exterior-remodeling">Exterior Remodeling</a></div>
         <div id="select-shed-homes" class="menu"><a href="#shed-homes">Shed Homes</a></div>
       </div>
-    <div id="main-content-service-cards-interior">
+    </div>
+        <div class="fade">
+      <div>
+        <img src="/images/home/basement.jpeg">
+      </div>
+      <div><img src="/images/home/kitchen.jpeg"></div>
+      <div><img src="/images/home/basement.jpeg"></div>
+    </div>
+	</div>
+      <div id="main-content-service-cards-interior">
       <div class="service-card">
         <div class="service-card-header">
           <h3><a href="#">Bathroom</a></h3>
@@ -88,7 +71,6 @@
         </div>
       </div>  
      </div> 
-
      <div id="main-content-service-cards-exterior" class="hidden">
       <div class="service-card">
         <div class="service-card-header">
@@ -108,20 +90,12 @@
       </div>
       <div class="service-card">
         <div class="service-card-header">
-          <h3><a href="#">Decks</a></h3>
+          <h3><a href="#">Decks & Pergolas</a></h3>
         </div>
         <div class="service-card-image">
           <img src="images/home/kitchen.jpeg" alt="Basement">
         </div>
       </div>  
-      <div class="service-card">
-        <div class="service-card-header">
-          <h3><a href="#">Pergola</a></h3>
-        </div>
-        <div class="service-card-image">
-          <img src="images/home/basement.jpeg" alt="Basement">
-        </div>
-      </div>
       <div class="service-card">
         <div class="service-card-header">
           <h3><a href="#">Siding</a></h3>
@@ -158,45 +132,182 @@
         </div>
       </div>  
      </div> 
+  <section id="below-main-content-section">
+    <div class="below-main-content">
+      <h1>Make Your House Look Like New</h1>
+      <h3>SCHEDULE A CONSULTATION WITH A REMODELING CONTRACTOR IN CEDAR FALLS, IA</h3>
+      <p style="">Our home remodeler should be the top choice for your home renocation project. With more than a decade of experience, the crew at TEAM Builders LTD has what it takes to transform your current house into your dream home. There is no project too big or too small for us.</p>
+      <p>Call 319-481-8326 now to discuss your design ideas with a skilled remodeling contractor in Cedar Falls, IA</p>
+    </div>
+    <div class="below-main-content-image">
+      <img src="images/home/basement.jpeg">
+    </div>
+  </section>
+  <section class="gradient-banner">
+    <div class="gradient-content">
+      <span>
+        Renovating your home is simple with TEAM Builders LTD
+      </span>
+      <div class="triangle"></div>
+      <a class="btn btn-secondary">Our Process</a>
+    </div>
+  </section>
 
+  <!-- Meet Our Owners -->
+  <section id="meet-our-owners">
+    <h1>Meet Our Owners</h1>
+    <div class="bio">
+      <div class="biobox" id="engels">
+        <div class="biobox-header">
+          <div class="title">
+            <h2>Trevor Engels</h2>
+            <h3>COO/Project Manager</h3>
+          </div>
+          <div class="initials">
+            <p>T.E.</p>
+          </div>
+        </div>
+        <p>"Quality is where it counts. Exceeding the clients' expectations in craftsmanship is the most fulfilling part of my job, and something I aim to do on every project. My motto is to take the time and care to get it done right, never sacrificing quality for productivity. There's nothing better than the customer being 100% satisfied with the product we put out for them, and knowing they hired the right guys for the job."</p>
+      </div>
+      <div class="bio-image">
+        <img src="http://www.fillmurray.com/g/300/350">
+      </div>
     </div>
-	</div>
-  <section style="display: flex; justify-content: space-between; margin-top: 15%;">
-    <div>
-    <h1>MAKE YOUR HOUSE LOOK LIKE NEW</h1>
-    <p style="max-width: 500px; line-height: 2;">Our home remodeler should be the top choice for your home renocation project. With more than a decade of experience, the crew at TEAM Builders LTD has what it takes to transform your current house into your dream home. There is no project too big or too small for us.</p>
+    <div class="bio" id="bio-reverse">
+      <div class="biobox">
+        <div class="biobox-header">
+          <div class="title">
+            <h2>Austin Maginnis</h2>
+            <h3>CEO/Sales Manager</h3>
+          </div>
+          <div class="initials">
+            <p>A.M.</p>
+          </div>
+        </div>
+        <p>"It's always a pleasure getting to work with clients on their home remodeling projects. Helping them bring their visions to reality is something I take great pride in. I love showing up at the beginning of a project to capture a client's vision, and then showing up again towards the end of a project and hearing the client say 'this turned out better than I had ever imagined' or 'the construction crew did an incredible job, it's perfect.' It's moments like this where I know our goals and visions for value and client satisfaction have been attained and it's something Trevor and I strive to achieve on every project."</p>
+      </div>
+      <div class="bio-image">
+        <img src="http://www.fillmurray.com/g/300/350">
+      </div>
     </div>
-    <img src="images/home/dwell2.jpg" style="max-height: 200px;">
+
   </section>
   <section class="gradient-banner">
-  <span>
-    Renovating Your home is simple with TEAM Builders LTD
-  </span>
-  </section>
-  <section class="gradient-banner">
-  <span>
-    Family owned business serving with pride. A local business you can trust.
-  </span>
-  </section>
-  <section class="gradient-banner">
-  <span>
-    Learn more about our rewards program
-  </span>
+    <div class="gradient-content">
+      <span>
+        Family owned business serving with pride. A local business you can trust.
+      </span>
+      <div class="triangle"></div>
+      <a class="btn btn-secondary">Get an Estimate</a>
+    </div>
   </section>
   <section>
-    <h1>Contact Us</h1>
-    <form>
-      <label for="fname">First name:</label>
-      <input type="text" id="fname" name="fname">
-      <label for="lname">Last name:</label>
-      <input type="text" id="lname" name="lname"><br>
-      <label for="address">Address:</label>
-      <input type="text" id="address" name="address"><br>
-      <label for="city">City:</label>
-      <input type="text" id="address" name="address"><br>
-      <label for="address">Address:</label>
-      <input type="text" id="address" name="address"><br>
-    </form>
+    <div class="testimonial-container">
+      <h3 class="h1">What Our Customers Say</h3>
+      <div class="testimonials">
+        <div class="testimonial">
+          <div class="quote">
+            <h2>Elon Musk</h2>
+            <img src="/images/home/testimonial-quote.png">
+          </div>
+          <p>
+          Can you make it faster? I think we need to start from scratch. Can my website be in english? can we have another option. I cant pay you is this the best we can do this red is too red. Try a more powerful colour make it look like Apple, nor will royalties in the company do instead of cash.
+          </p>
+        </div>
+        <div class="testimonial">
+          <div class="quote">
+            <h2>King George III</h2>
+            <img src="/images/home/testimonial-quote.png">
+          </div>
+          <p>
+          Can you make it faster? I think we need to start from scratch. Can my website be in english? can we have another option. I cant pay you is this the best we can do this red is too red. Try a more powerful colour make it look like Apple, nor will royalties in the company do instead of cash.
+          </p>
+        </div>
+        <div class="testimonial">
+          <div class="quote">
+            <h2>Austin Maginnis</h2>
+            <img src="/images/home/testimonial-quote.png">
+          </div>
+          <p>
+          I know I work here, but this place is just great.
+          </p>
+        </div>
+        <div class="testimonial">
+          <div class="quote">
+            <h2>Batman</h2>
+            <img src="/images/home/testimonial-quote.png">
+          </div>
+          <p>
+          Can you make it faster? I think we need to start from scratch. Can my website be in english? can we have another option. I cant pay you is this the best we can do this red is too red. Try a more powerful colour make it look like Apple, nor will royalties in the company do instead of cash.
+          </p>
+        </div>
+        <div class="testimonial">
+          <div class="quote">
+            <h2>Ted Mosby</h2>
+            <img src="/images/home/testimonial-quote.png">
+          </div>
+          <p>
+          Can you make it faster? I think we need to start from scratch. Can my website be in english? can we have another option. I cant pay you is this the best we can do this red is too red. Try a more powerful colour make it look like Apple, nor will royalties in the company do instead of cash.
+          </p>
+        </div>
+        <div class="testimonial">
+          <div class="quote">
+            <h2>Bill Murray</h2>
+            <img src="/images/home/testimonial-quote.png">
+          </div>
+          <p>
+          Can you make it faster? I think we need to start from scratch. Can my website be in english? can we have another option. I cant pay you is this the best we can do this red is too red. Try a more powerful colour make it look like Apple, nor will royalties in the company do instead of cash it. Much good business very fine labor.
+          </p>
+        </div>
+      </div>
+    </div>
   </section>
+  <section class="gradient-banner">
+    <div class="gradient-content">
+      <span>
+        Family owned business serving with pride. A local business you can trust.
+      </span>
+      <div class="triangle"></div>
+      <a class="btn btn-secondary">Get an Estimate</a>
+    </div>
+  </section>
+  <section id="choose-team-builders">
+    <h1>3 Reasons to Choose T.E.A.M. Builders Ltd.</h1>
+    <p>T.E.A.M. Builders Ltd. is home to one of the top remodeling contractors in Cedar Falls, IA. We make it easy to give your house a makeover. When you hire us, you'll get:</p>
+    <div id="three-reasons">
+      <div class="reason">
+        <h5>1. A free estimate from a dependable contractor</h5>
+        <img src="/images/home/dependable-contractor.png">
+      </div>
+      <div class="reason" id="flip">
+        <h5>2. Service tailored to fit your needs, schedule, and budget</h5>
+        <img src="/images/home/tailored-service.png">
+      </div>
+      <div class="reason">
+        <h5>3. Access to high quality parts to help your house</h5>
+        <img src="/images/home/high-quality-parts.png">
+      </div>
+    </div>
+    <p style="text-align: center;">Don't delay your project any longer. Contact us today to get your free estimate from a home remodeler in Cedar Falls, IA.</p>
+  </section>
+  <section class="gradient-banner">
+     <div class="gradient-content">
+      <span>
+        Learn more about our rewards program
+      </span>
+      <div class="triangle"></div>
+      <a class="btn btn-secondary">Learn More</a>
+    </div>
+  </section>
+  <section id="contactus">
+  </section>
+  <footer id="footer">
+  </footer>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Slick Slider -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/loadTemplate.js"></script>
   </body>
 </html>
