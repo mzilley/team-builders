@@ -37,7 +37,7 @@
     flex-direction: row-reverse;
   }
   #main-content-service-selector-wrapper {
-    top: 450px!important;
+    top: 500px!important;
   }
 }
 
@@ -69,7 +69,7 @@
   }
 }
 
-@media (max-width: 1350px) {
+@media (max-width: 1400px) {
   a.client-feedback, a.referral-program, a.roof-estimate {
     display: none;
   }
@@ -91,6 +91,9 @@
   }
   [id^="main-content-service-cards"] {
     width: 100%;
+  }
+  .service-card {
+    width: 90%;
   }
   #main-content, .fade .slick-slider img {
     height: 95vh;
@@ -167,6 +170,9 @@
     flex-direction: column-reverse!important;
     text-align: center;
    }
+   #referral-program-container {
+     flex-direction: column;
+   }
   #footer-container {
     flex-direction: column;
     text-align: center;
@@ -191,15 +197,24 @@
   }
   .bio {
     flex-direction: column;
-    margin: 12.5% 0!important;
+    height: 100%!important;
+    margin: 5% auto!important;
+    width: 75%;
   }
-  .biobox {
-    width: auto!important;
+  .bio-image > img {
+    width: 100%;
+    height: 100%!important;
+  }
+  .biobox-header {
+    padding: 15px 25px;
+  }
+  .biobox p {
+    padding: 15px 25px;
+  }
+  #meet-our-owners .biobox {
     margin-right: 0!important;
-  }
-  .bio-image {
     width: 100%!important;
-    height: 350px;
+    padding: 0!important;
   }
   #bio-reverse .biobox {
     margin-left: 0!important;
@@ -256,7 +271,7 @@
     font-size: 24px;
   }
   #main-content h2 {
-    top: 35%;
+    top: 32.5%;
     font-size: 16px;
     margin: 0 5%;
   }

@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;500;600;700&display=swap');
 @import "global.css";
-@import "preloader.css";
 @import "buttons.css";
 @import "accordion.css";
 @import "icons.css";
@@ -11,7 +10,9 @@
 @import "testimonials.css";
 @import "before-after.css";
 @import "our-work.css";
+@import "form-embed.css";
 @import "contact-us.css";
+@import "referral.css";
 @import "media-queries.css";
 @import "footer.css";
 @import "service-subpages.css";

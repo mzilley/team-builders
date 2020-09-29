@@ -6,13 +6,16 @@
 }
 
 .our-work-images {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  /* display: flex; */
+  margin-bottom: 10%;
 }
+
+/* .our-work-image img {
+  object-fit: cover;
+} */
 
 .our-work-image {
   margin: 1%;
-  max-width: 280px;
+  /* max-width: 280px; */
   max-height: 300px;
 }

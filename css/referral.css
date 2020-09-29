@@ -1,0 +1,13 @@
+#referral-program-container {
+  display: flex;
+  justify-content: center;
+  margin: 5% 0;
+}
+
+#referral-program-container .level {
+  padding: 25px;
+  margin: 15px;
+  border-top: 5px solid #9AB858;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 14px 2px;
+  text-align: left;
+}

@@ -26,27 +26,30 @@
 }
 
 .hero-nav.interior-remodeling {
-  background-image: url(/images/work/basement-renovations/Stairs-Inside.jpg);
+  background-image: url(/images/work/basement-renovations/basement-renovation.png);
 }
 
 .hero-nav.bathroom {
-  background-image: url(/images/home/bathroom.jpeg);
+  background-image: url(/images/work/bathroom-renovations/bathroom-2.png);
+  background-position: 0px -110px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .hero-nav.basement {
-  background-image: url(/images/work/basement-renovations/Stairs-Inside.jpg);
+  background-image: url(/images/work/basement-renovations/basement-renovation.png);
 }
 
 .hero-nav.kitchen {
-  background-image: url(/images/home/kitchen.jpeg);
+  background-image: url(/images/work/kitchen-renovations/kitchen-renovation-island.jpg);
 }
 
 .hero-nav.fencing {
-  background-image: url(/images/work/fencing/final-fence.png);
+  background-image: url(/images/work/fencing/fence.png);
 }
 
 .hero-nav.deck {
-  background-image: url(/images/work/decks/1.JPG);
+  background-image: url(/images/work/decks/DJI_0140.JPG);
   background-position: top;
 }
 
@@ -55,15 +58,19 @@
 }
 
 .hero-nav.siding {
-  background-image: url(/images/work/siding/Siding_1.jpg);
+  background-image: url(/images/work/siding/siding.png);
 }
 
 .hero-nav.shed {
-  background-image: url(/images/work/shed-houses/red-shed.png);
+  background-image: url(/images/work/shed-houses/shed-homes-shouses.png);
 }
 
-.hero-nav.shed-homes, .hero-nav.roofing {
+.hero-nav.shed-homes {
   background-image: url(/images/work/shed-houses/Website-roofing-final.png);
+}
+
+.hero-nav.roofing {
+  background-image: url(/images/work/roofing/DJI_0665.JPG);
 }
 
 .hero-nav.commercial {
@@ -134,7 +141,8 @@
   background: #fff;
   text-align: left;
   padding: 15px;
-  width: 300px;
+  /* width: 300px; */
+  width: 100%;
   margin: 2%;
   min-height: 50px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 14px 2px;

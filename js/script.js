@@ -43,7 +43,7 @@ jQuery(document).ready(function($) {
 
       // Calendly iFrame
       $('.calendly').hide();
-      $('#calendly-scheduler').on('click', function() {
+      $('.calendly-scheduler').on('click', function() {
         $('.calendly').show("3250");
       });
 
@@ -108,6 +108,8 @@ jQuery(document).ready(function($) {
         }
         ]
     });
+
+    $("#phone").inputmask({"mask": "(999) 999-9999"});
 });
 
 
@@ -503,5 +505,3 @@ $('.roofing-accordion').accordion({
 $('.covid-accordion').accordion({
     "transitionSpeed": 400
 });
-
-

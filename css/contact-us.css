@@ -27,10 +27,6 @@ margin: 3%;
   max-width: 100%;
 }
 
-/* iframe {
-  display: none;
-} */
-
 #calendly-scheduler {
   position: fixed;
   right: 0;

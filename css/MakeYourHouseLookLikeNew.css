@@ -2,12 +2,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center; 
-  padding: 5% 10%; 
+  padding: 10% 5% 5% 5%; 
   color: grey;
 }
 
 #below-main-content-section img {
-  width: 100%;
+  width: 65%;
 }
 
 .below-main-content, .below-main-content-image {
@@ -20,6 +20,8 @@
   }
 
   #below-main-content-section > div {
-    margin-right: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }

@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <h4 class="h1">Contact Us</h4>
 <p>Contact us directly or simply fill out the form below and we will get back to you within one business day.</p>
-<form id="contact" name="contact" method="post" action="../php/contact-us.php" enctype=”multipart/form-data”>
+<form id="contact" name="contact" action="https://formspree.io/xoqpvlez" method="POST" enctype=”multipart/form-data”>
+    <div class="form-input">
+      <input type="hidden" id="_gotcha" name="_gotcha" required>
+    </div>
   <div class="form-column">
     <div class="form-input">
       <label for="fname">Name:*</label>
@@ -21,7 +24,7 @@
     </div>
     <div class="form-input">
       <label for="address">Zip Code:*</label>
-      <input type="text" id="zip" name="zip" required>
+      <input type="text" id="zip" name="zip" maxlength="5" minlength="5" placeholder="55555" required>
     </div>
   </div>
   <div class="form-column">
@@ -31,7 +34,7 @@
     </div>
     <div class="form-input">
       <label for="phone">Phone:</label>
-      <input type="text" id="phone" name="phone" required>
+      <input type="text" id="phone" name="phone" placeholder="(555) 555-5555" maxlength="14" required>
     </div>
   </div>
   <div class="form-column">
@@ -55,4 +58,5 @@
       <input type="submit" class="btn btn-primary" id="submit" name="submit">
     </div>
   </div>
+  <p id="submit-message"></p>
 </form>

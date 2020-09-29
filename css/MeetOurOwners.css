@@ -7,10 +7,17 @@
 }
 
 #meet-our-owners .biobox {
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 14px 2px;
+  /* box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 14px 2px;
   padding: 25px;
   margin-right: 5%;
-  width: 50%;
+  width: 50%; */
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 14px 2px;
+    padding: 25px;
+    margin-right: 5%;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #meet-our-owners .biobox > .biobox-header .title > h2, #meet-our-owners .biobox > .biobox-header .title > h3 {
@@ -19,26 +26,20 @@
 }
 
 .bio-image {
-  width: 300px;
-  position: relative;
   display: inline-block;
   overflow: hidden;
 }
 
 .bio-image > img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-height: 100%;
-  min-width: 100%;
-  transform: translate(-50%, -50%);
+  height: 375px;
 }
 
 .bio {
   display: flex;
   justify-content: center;
   margin: 5% 0;
-  min-height: 325px;
+  height: 0;
+  min-height: 375px;
 }
 
 #bio-reverse .biobox {
