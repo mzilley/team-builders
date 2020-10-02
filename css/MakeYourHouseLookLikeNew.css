@@ -11,7 +11,8 @@
 }
 
 .below-main-content, .below-main-content-image {
-  width: 47.5%;
+  width: 100%;
+  margin-left: 10%;
 }
 
 @media (max-width: 768px) {

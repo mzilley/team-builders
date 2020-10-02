@@ -104,6 +104,11 @@ nav {
   margin-right: 20px!important;
 }
 
+.feature-menu a {
+  border-right: 1px solid #999;
+  padding-right: 15px;
+}
+
 /* Alert */
 .alert {
   position: absolute;

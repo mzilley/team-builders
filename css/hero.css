@@ -35,7 +35,6 @@
 
 #main-content-service-selector {
   margin: 0 auto;
-  width: 75%;
   justify-content: space-around;
   background-color: white;
   padding: 16px;
@@ -49,9 +48,8 @@
   text-align: center;
   text-shadow: 0px 0px 8px #666;
   font-weight: 400;
-  /* Center Content Absolutely */
   position: absolute;
-  top: 35%;
+  top: 16rem;
   left: 0;
   right: 0;
 }
@@ -68,7 +66,7 @@
 }
 
 #main-content-service-selector-wrapper {
-  width: 95%;
+  width: 85%;
   position: relative;
   top: 75px;
   margin: 0 auto;
@@ -87,7 +85,7 @@
 [id^="main-content-service-cards"] {
   justify-content: center;
   height: 40vh;
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
   margin-top: -18%;
   display: flex;
@@ -96,10 +94,13 @@
 .service-card {
   background-color: #fff;
   height: 100%;
-  width: 30%;
-  margin: 0 17.5px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 14px 2px;
   flex-direction: column;
+}
+
+/* Add margin to specific service cards */
+.my-15 {
+  margin: 0 20px;
 }
 
 .service-card-header {

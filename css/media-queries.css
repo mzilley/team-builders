@@ -1,6 +1,6 @@
 @media (min-width: 768px) and (max-width: 992px) {
   #main-content-service-selector {
-    width: 90%;
+    width: 85%;
   }
   .service-card {
     height: 75%;
@@ -14,7 +14,20 @@
   .feature {
     width: 100%;
   }
+  #main-content-service-selector-wrapper {
+    top: 500px!important;
+  }
+  .service-card {
+    margin: 0 10px;
+  }
 }
+
+@media (min-width: 992px) {
+  #main-content-service-selector-wrapper {
+    top: 430px!important;
+  }
+}
+
 
 @media (min-width: 768px) {
   /* Nav */
@@ -35,9 +48,6 @@
   }
   #bio-reverse {
     flex-direction: row-reverse;
-  }
-  #main-content-service-selector-wrapper {
-    top: 500px!important;
   }
 }
 
@@ -136,6 +146,9 @@
   }
   .col {
     padding: 2.5% 0;
+  }
+  .my-15 {
+    margin: 0;
   }
   .triangle {
     display: none;
