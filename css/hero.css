@@ -18,6 +18,10 @@
   font-size: 14px;
 }
 
+#main-menu-container #feature-menu > a >span {
+  font-size: 18px;
+}
+
 #main-content {
   background:       
   linear-gradient(
@@ -43,15 +47,21 @@
   display: flex;
 }
 
+#hero-text {
+    position: absolute;
+    top: 35vh;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #main-content h1, #main-content h2, #main-content .btn {
   color: white;
   text-align: center;
   text-shadow: 0px 0px 8px #666;
   font-weight: 400;
-  position: absolute;
-  top: 16rem;
-  left: 0;
-  right: 0;
+  margin: 0;
 }
 
 #main-content .btn {
@@ -87,7 +97,7 @@
   height: 40vh;
   width: 85%;
   margin: 0 auto;
-  margin-top: -18%;
+  margin-top: -10%;
   display: flex;
 }
 
