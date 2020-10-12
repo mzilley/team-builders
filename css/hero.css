@@ -101,6 +101,10 @@
   display: flex;
 }
 
+#main-content-service-cards-exterior .service-card {
+    width: 25%;
+}
+
 .service-card {
   background-color: #fff;
   height: 100%;
@@ -109,7 +113,7 @@
 }
 
 /* Add margin to specific service cards */
-.my-15 {
+.my-20 {
   margin: 0 20px;
 }
 
