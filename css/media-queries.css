@@ -336,17 +336,17 @@
   }
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 992px) {
+    #social-menu {
+        display: none;
+    }
+}
+
+@media (max-width: 1450px) {
   a.client-feedback, a.referral-program, a.roof-estimate {
     display: none;
   }
-  #social-menu {
-    display: none;
-}
-}
-
-@media (min-width: 1450px) {
   .our-work-accordion img {
-  width: 30%;
-  }
+    width: 30%;
+    }
 }

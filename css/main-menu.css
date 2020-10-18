@@ -132,3 +132,7 @@ nav {
   color: #fff;
   width: 60%;
 }
+
+#social-menu a {
+    padding: 0 5px;
+}
