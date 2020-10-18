@@ -29,12 +29,12 @@
   background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/basement-renovations/basement-renovation.png);
 }
 
-.hero-nav.bathroom {
+/* .hero-nav.bathroom {
   background-image: url(/images/work/bathroom-renovations/bathroom-2.png);
   background-position: 0px -110px;
   background-size: cover;
   background-repeat: no-repeat;
-}
+} */
 
 .hero-nav.basement {
   background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/basement-renovations/basement-renovation.png);
@@ -49,25 +49,25 @@
 }
 
 .hero-nav.deck {
-  background-image: url(/images/work/decks/DJI_0140.JPG);
+  background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/decks/DJI_0140.JPG);
   background-position: top;
 }
 
 .hero-nav.pergola {
-  background-image: url(/images/work/pergolas/p1.jpg);   
+  background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/pergolas/p1.jpg);   
   background-position: center 25%;
 }
 
 .hero-nav.siding {
-  background-image: url(/https://teambuilders-media.s3.us-east-2.amazonaws.com/work/siding/siding.png);
+  background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/siding/siding.png);
 }
 
 .hero-nav.shed {
-  background-image: url(/images/work/shed-houses/shed-homes-shouses.png);
+  background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/shed-houses/shed-homes-shouses.png);
 }
 
 .hero-nav.shed-homes {
-  background-image: url(/images/work/shed-houses/Website-roofing-final.png);
+  background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/shed-houses/Website-roofing-final.png);
 }
 
 .hero-nav.roofing {
@@ -75,11 +75,11 @@
 }
 
 .hero-nav.commercial {
-  background-image: url(/images/work/commercial/9.png);
+  background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/commercial/9.png);
 }
 
 .hero-nav.event {
-  background-image: url(/https://teambuilders-media.s3.us-east-2.amazonaws.com/work/event-venues/event-venue-1.png);
+  background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/event-venues/event-venue-1.png);
 }
 
 .hero-nav.team {
@@ -88,7 +88,7 @@
 }
 
 .hero-nav.process {
-  background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/our-process.png);
+  background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/basement-renovations/basement-renovation.png);
 }
 
 .hero-nav .hero-nav__inner {
