@@ -112,7 +112,7 @@
     margin: 5px auto;
   }
   #main-content-service-selector {
-    padding: 5px 0!important;
+    padding: 0!important;
   }
   #below-main-content-section {
     padding-top: 0!important;
@@ -260,7 +260,7 @@
     width: 90%;
   }
   #main-content-service-selector a {
-    font-size: 16px;
+    font-size: 15px;
   }
   /* Meet Our Owners */
   #meet-our-owners h1 {
