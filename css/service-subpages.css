@@ -22,11 +22,11 @@
 }
 
 .hero-nav.exterior-remodeling {
-  background-image: url(/images/work/decks/1554128996356_large_wooden_deck.jpg);
+  background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/decks/1554128996356_large_wooden_deck.jpg);
 }
 
 .hero-nav.interior-remodeling {
-  background-image: url(/images/work/basement-renovations/basement-renovation.png);
+  background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/basement-renovations/basement-renovation.png);
 }
 
 .hero-nav.bathroom {
@@ -37,15 +37,15 @@
 }
 
 .hero-nav.basement {
-  background-image: url(/images/work/basement-renovations/basement-renovation.png);
+  background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/basement-renovations/basement-renovation.png);
 }
 
 .hero-nav.kitchen {
-  background-image: url(/images/work/kitchen-renovations/kitchen-renovation-island.jpg);
+  background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/kitchen-renovations/kitchen-renovation-island.jpg);
 }
 
 .hero-nav.fencing {
-  background-image: url(/images/work/fencing/fence.png);
+  background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/fencing/fence.png);
 }
 
 .hero-nav.deck {
@@ -54,7 +54,8 @@
 }
 
 .hero-nav.pergola {
-  background-image: url(/images/work/pergolas/p1.jpg);   background-position: center 25%;
+  background-image: url(/images/work/pergolas/p1.jpg);   
+  background-position: center 25%;
 }
 
 .hero-nav.siding {
@@ -82,12 +83,12 @@
 }
 
 .hero-nav.team {
-  background-image: url(/images/team/founders.jpg);
+  background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/team/founders.jpg);
   background-position: 0 20%;
 }
 
 .hero-nav.process {
-  background-image: url(/images/work/our-process.jpg);
+  background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/our-process.png);
 }
 
 .hero-nav .hero-nav__inner {
