@@ -96,7 +96,7 @@
     flex-direction: column;
     height: auto;
   }
-  [id^="main-content-service-cards"] {
+  [id^="main-content-service-cards"], #main-content-service-cards-exterior .service-card {
     width: 100%;
   }
   .service-card {

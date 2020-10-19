@@ -113,8 +113,8 @@
 }
 
 /* Add margin to specific service cards */
-.my-20 {
-  margin: 0 20px;
+.mr-20 {
+  margin-right: 20px;
 }
 
 .service-card-header {
