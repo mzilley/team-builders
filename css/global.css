@@ -123,3 +123,65 @@ body {
   color: #9AB858;
   text-decoration: underline;
 }
+
+/* Icons */
+.fa-angle-double-right, .fa-google{
+    position: relative;
+  }
+  
+  .fa-angle-double-right {
+    transition: 0.2s ease-in-out all;
+    font-size: 18px!important;
+    top: 1px;
+    left: 10px;
+  }
+  
+  .fa-angle-double-right:before {
+    position: relative;
+    bottom: 2px;
+  }
+  
+  .fa-google {
+    font-size: 14px!important;
+    left: 5px;
+  }
+  
+  .rotate {
+    -ms-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  
+  .fa-youtube-play, .fa-instagram, .fa-facebook, .fa-pinterest {
+      color: #9AB858;
+  }
+
+  /* Buttons */
+  .btn {
+    border-radius: 0;
+    padding: 10px 25px;
+    transition: 0.3s ease-in-out all;
+    display: inline-block;
+  }
+  
+  .btn:hover {
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    color: #fff;
+    border: 2px solid #9AB858;
+    background: #9AB858;
+  }
+  
+  .btn-primary:hover {
+    background: transparent;
+    color: #9AB858;
+  }
+  
+  .btn-secondary {
+    color: #9AB858;
+    border: 2px solid #fff;
+    background: #fff;
+  }
