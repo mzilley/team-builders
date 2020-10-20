@@ -116,8 +116,8 @@
   left: 0;
   right: 0;
   bottom: 0;
-  -webkit-transition: background 600ms;
-  transition: background 600ms;
+  /* -webkit-transition: background 600ms;
+  transition: background 600ms; */
 }
 .subpage-content {
   text-align: center;
@@ -132,7 +132,7 @@
    margin-left: -2%;
    margin-top: 5%;
 }
-.col .feature-container div.feature, {
+.col .feature-container div.feature {
   width: 100%;
   min-width: 0%;
 }
@@ -149,7 +149,7 @@
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 14px 2px;
 }
 
-.col .feature-container .feature, {
+.col .feature-container .feature {
   width: 100%;
   min-width: 100%;
 }
