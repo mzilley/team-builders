@@ -233,4 +233,55 @@
       background: #9AB858;
       transition: 0.3s ease-in-out all;
   }
+
+  #referral-program-container {
+    display: flex;
+    justify-content: center;
+    margin: 5% 0;
+  }
+  
+  #referral-program-container .level {
+    padding: 25px;
+    margin: 15px;
+    border-top: 5px solid #9AB858;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 14px 2px;
+    text-align: left;
+  }
+
+  /* Gradient Banners */
+.gradient-banner {
+    background: linear-gradient(90deg, rgb(145, 197, 96, 0.75) 0%, rgba(145, 197, 96, 1) 100%);
+    color: #fff;
+    font-size: 20px;
+    padding: 3% 2%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  .gradient-banner a {
+    font-size: 16px;
+    text-align: center;
+    padding: 15px 25px;
+    text-transform: uppercase;
+  }
+  
+  .triangle {
+      width: 0;
+      height: 0;
+      border-width: 7px 14px 7px 0;
+      border-color: transparent #FFFFFF transparent transparent;
+      border-style: solid;
+  }
+  
+  .gradient-banner span {
+    text-align: center;
+    margin-right: 15px;
+    width: 75%;
+  }
+  
+  .gradient-content {
+    display: flex;
+    align-items: center;
+  }
   
