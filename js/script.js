@@ -3,7 +3,7 @@ jQuery(document).ready(function($) {
       $('#select-interior').on('click', function() {
         $('#main-content-service-cards-interior').fadeIn("3250").css('display', 'flex');
         $('#main-content-service-cards-exterior').hide();
-        $('#main-content-service-cards-shed-homes').hide();
+        $('#main-content-service-cards-new-construction').hide();
         $('#select-interior').addClass('active');
         $(':not("#select-interior")').removeClass('active');
       });
@@ -12,17 +12,17 @@ jQuery(document).ready(function($) {
         $('#select-exterior').addClass('active');
         $('#main-content-service-cards-exterior').fadeIn("3250").css('display', 'flex');
         $('#main-content-service-cards-interior').hide();
-        $('#main-content-service-cards-shed-homes').hide();
+        $('#main-content-service-cards-new-construction').hide();
         $('#select-exterior').addClass('active');
         $(':not("#select-exterior")').removeClass('active');
       });
 
-      $('#select-shed-homes').on('click', function() {
-        $('#main-content-service-cards-shed-homes').fadeIn("3250").css('display', 'flex');
+      $('#select-new-construction').on('click', function() {
+        $('#main-content-service-cards-new-construction').fadeIn("3250").css('display', 'flex');
         $('#main-content-service-cards-exterior').hide();
         $('#main-content-service-cards-interior').hide();
-        $('#select-shed-homes').addClass('active');
-        $(':not("#select-shed-homes")').removeClass('active');        
+        $('#select-new-construction').addClass('active');
+        $(':not("#select-new-construction")').removeClass('active');        
       });
 
       // Main Menu Collapse
