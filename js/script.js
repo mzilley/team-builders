@@ -66,8 +66,8 @@ jQuery(document).ready(function($) {
         dots: false,
         arrows: false,
         infinite: true,
-        speed: 500,
-        fade: true,
+        speed: 400,
+        fade: false,
         autoplay: true,
         cssEase: 'linear'
       });
