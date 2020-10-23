@@ -99,11 +99,11 @@
     flex-direction: column;
     height: auto;
   }
-  [id^="main-content-service-cards"], #main-content-service-cards-exterior .service-card {
+  /* [id^="main-content-service-cards"], #main-content-service-cards-exterior .service-card {
     width: 100%;
-  }
+  } */
   .service-card {
-    width: 95%;
+    width: 90%!important;
     margin: 0 auto;
   }
   #main-content .slick-slider {
