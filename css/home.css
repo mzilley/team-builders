@@ -461,39 +461,3 @@ nav {
       align-items: center;
     }
   }
-
-  /* Choose Team Builders */
-  /* 3 Reasons to Choose TBL */
-.reason {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 22px;
-    margin-bottom: -10%;
-  }
-  
-  .reason:last-child {
-    margin-bottom: 0;
-  }
-  
-  .reason h5 {
-    margin: 0;
-  }
-  
-  #flip {
-    flex-direction: row-reverse;
-  }
-  
-  .reason, .reason #flip {
-      display: flex;
-      text-align: center;
-      /* min-height: 400px; */
-  }
-  /* 
-  .reason img {
-    max-width: 100%;
-  } */
-  
-  #choose-team-builders {
-    padding: 5% 10%;
-  }

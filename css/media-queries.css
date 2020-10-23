@@ -55,6 +55,9 @@
   #main-content-service-cards-new-construction .service-card {
       width: 50%;
   }
+  .mobile-tel {
+      display: none;
+  }
 }
 
 @media (min-width: 525px) and (max-width: 768px) {
