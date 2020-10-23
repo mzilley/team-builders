@@ -103,8 +103,8 @@
     width: 100%;
   } */
   .service-card {
-    width: 90%!important;
-    margin: 0 auto;
+    width: 100%!important;
+    margin: 0 auto 7.5% auto;
   }
   #main-content .slick-slider {
     z-index: -1;
