@@ -249,7 +249,7 @@ nav {
   }
 
   #secondary-links .fa {
-      display: inline-block;
+      display: inline-block!important;
   }
   
   [id^="collapsed-menu"] {
