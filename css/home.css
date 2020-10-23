@@ -23,12 +23,12 @@
 }
 
 #main-content {
-  background:       
+  /* background:       
   linear-gradient(
       to bottom right,
       rgba(255, 255, 255, 0.01), 
       rgba(154, 184, 88, 0.75)
-  );
+  ); */
   /* height: 100vh; */
   background-position: center;
   background-size: cover;
