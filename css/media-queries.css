@@ -92,9 +92,6 @@
 }
 
 @media (max-width: 768px) {
-  #main-nav-logo img {
-    max-width: 100%;
-  }
   [id^="main-content-service-cards"], #main-content-service-selector {
     flex-direction: column;
     height: auto;
