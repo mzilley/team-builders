@@ -248,7 +248,7 @@ nav {
     font-size: 16px;
   }
 
-  #secondary-links .fa {
+  #secondary-links a span.fa {
       display: inline-block!important;
   }
   
