@@ -247,6 +247,10 @@ nav {
   #secondary-links a {
     font-size: 16px;
   }
+
+  #secondary-links .fa {
+      display: inline-block;
+  }
   
   [id^="collapsed-menu"] {
     margin-left: 8px;
