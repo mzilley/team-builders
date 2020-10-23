@@ -103,7 +103,8 @@
     width: 100%;
   }
   .service-card {
-    width: 90%;
+    width: 95%;
+    margin: 0 auto;
   }
   #main-content .slick-slider {
     z-index: -1;
@@ -123,9 +124,9 @@
   .fade .slick-slider {
     bottom: 20vh;
   }
-  .service-card {
+  /* .service-card {
     margin: 5%;
-  }
+  } */
   .alert {
     padding: 0!important;
   }
