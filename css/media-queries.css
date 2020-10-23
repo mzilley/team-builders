@@ -52,6 +52,9 @@
   #bio-reverse {
     flex-direction: row-reverse;
   }
+  #main-content-service-cards-new-construction .service-card {
+      width: 50%;
+  }
 }
 
 @media (min-width: 525px) and (max-width: 768px) {
