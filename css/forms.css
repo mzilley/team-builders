@@ -36,3 +36,9 @@ iframe {
     margin-top: 5%;
     height: 1500px;
 }
+
+@media (max-width: 768px) {
+    iframe {
+        width: 100%;
+    }
+}
