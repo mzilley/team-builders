@@ -456,6 +456,16 @@ nav {
       align-items: center;
       flex-direction: column;
   }
+  #mc_embed_signup_scroll label {
+      color: #fff;
+  }
+  .clear, #mce-EMAIL {
+      border: 0;
+  }
+
+  #mce-EMAIL {
+      border-radius: 0;
+  }
   
   @media (max-width: 768px) {
     #below-main-content-section {
