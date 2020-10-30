@@ -449,6 +449,13 @@ nav {
     width: 100%;
     margin-left: 10%;
   }
+
+  /* Sign Up Form */
+  #mc_embed_signup_scroll {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+  }
   
   @media (max-width: 768px) {
     #below-main-content-section {
