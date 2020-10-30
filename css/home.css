@@ -456,14 +456,14 @@ nav {
       align-items: center;
       flex-direction: column;
   }
-  #mc_embed_signup_scroll label {
+  #mc_embed_signup label {
       color: #fff;
   }
-  .clear, #mce-EMAIL {
+  .clear, #mc_embed_signup input.email {
       border: 0;
   }
 
-  #mce-EMAIL {
+  #mc_embed_signup input.email {
       border-radius: 0;
   }
   
