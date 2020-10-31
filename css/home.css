@@ -65,8 +65,10 @@
 }
 
 #main-content .btn {
-  width: 10%;
-  margin: 0 auto;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
 }
 
 #main-content h2 {
@@ -97,7 +99,7 @@
   height: 40vh;
   width: 85%;
   margin: 0 auto;
-  margin-top: -10%;
+  margin-top: -7.5%;
   display: flex;
 }
 

@@ -18,7 +18,7 @@
     width: 100%;
   }
   #main-content-service-selector-wrapper {
-    top: 70vh!important;
+    top: 75vh!important;
   }
   .service-card {
     margin: 0 10px;
@@ -27,7 +27,7 @@
 
 @media (min-width: 992px) {
   #main-content-service-selector-wrapper {
-    top: 62.5vh;
+    top: 67.5vh;
   }
 }
 
@@ -62,10 +62,10 @@
 
 @media (min-width: 525px) and (max-width: 768px) {
   [id^="main-content-service-cards"] {
-    margin-top: -30%;
+    margin-top: -20%;
   }
   #main-content-service-selector-wrapper {
-    top: 47.5vh;
+    top: 55vh;
   }
   #main-content h1, #main-content h2 {
     top: 25%;
@@ -116,7 +116,7 @@
     margin: 5px auto;
   }
   #main-content-service-selector {
-    padding: 0!important;
+    padding: 5px!important;
   }
   #below-main-content-section {
     padding-top: 0!important;
@@ -281,7 +281,7 @@
         height: 88vh;
   } 
   [id^="main-content-service-cards"] {
-    margin-top: -55%;
+    margin-top: -35%;
   }
   #main-content h1 {
     top: 27.5%;
@@ -293,7 +293,7 @@
     margin: 0 5%;
   }
   #main-content-service-selector-wrapper {
-    top: 37.5vh;
+    top: 45vh;
   }
   #hero-text {
     top: 27.5vh; 
