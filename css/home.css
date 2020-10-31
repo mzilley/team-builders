@@ -460,11 +460,15 @@ nav {
       color: #fff;
   }
   .clear, #mc_embed_signup input.email {
-      border: 0;
+      border: 0!important;
   }
 
   #mc_embed_signup input.email {
-      border-radius: 0;
+      border-radius: 0!important;
+  }
+  #mc_embed_signup input {
+      border: 0!important;
+      border-radius: 0!important;
   }
   
   @media (max-width: 768px) {
