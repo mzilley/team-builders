@@ -333,6 +333,7 @@ nav {
   
   .testimonial p {
     padding: 0 25px 25px 25px;
+    text-align: left;
   }
   
   .testimonial .quote p {
