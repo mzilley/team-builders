@@ -44,3 +44,13 @@ footer #mc-embedded-subscribe {
     background-color: #9AB858;
     color: #fff;
 }
+
+footer #mc_embed_signup form {
+    padding: 0;
+}
+
+footer #mc_embed_signup input.email {
+    width: 90%!important;
+    background: transparent!important;
+    border: 1px solid #999!important;
+}
