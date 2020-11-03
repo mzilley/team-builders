@@ -67,6 +67,7 @@
 #main-content .btn {
   width: 20%;
   display: flex;
+  margin: 0 auto;
   justify-content: center;
   margin-top: 10px;
 }
