@@ -319,11 +319,11 @@ nav {
     justify-content: center;
   }
 
-  .testimonials .slick-slider {
+  .slick-slider {
     display: none;
   }
 
-  .testimonials .slick-initialized .slick-slider {
+  .slick-initialized .slick-slider {
       display: block;
   }
   
