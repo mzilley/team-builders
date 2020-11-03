@@ -35,3 +35,12 @@
 footer #mc_embed_signup_scroll {
     align-items: flex-start;
 }
+
+footer #mc_embed_signup label {
+    color: #666;
+}
+
+footer #mc-embedded-subscribe {
+    background-color: #9AB858;
+    color: #fff;
+}
