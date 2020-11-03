@@ -318,6 +318,14 @@ nav {
     display: flex!important;
     justify-content: center;
   }
+
+  .testimonials .slick-slider {
+    display: none;
+  }
+
+  .testimonials .slick-initialized .slick-slider {
+      display: block;
+  }
   
   .testimonials .slick-slide {
     text-align: center;
