@@ -463,6 +463,9 @@ nav {
       color: #fff;
       font-weight: 400!important;
   }
+  #mc_embed_signup .clear {
+      text-align: center;
+  }
   .clear, #mc_embed_signup input.email {
       border: 0!important;
       width: 35%!important;
