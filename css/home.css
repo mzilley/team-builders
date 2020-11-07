@@ -104,15 +104,8 @@
   display: flex;
 }
 
-/* Used in the exterior remodeling section since there are 5 categories so we need to have two rows */
-.service-card-row {
-    display: flex;
-    justify-content: center;
-}
-
-.service-card-row .service-card {
-    display: inline-block;
-    width: 33%;
+#main-content-service-cards-exterior .service-card {
+    width: 25%;
 }
 
 .service-card {
