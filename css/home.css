@@ -104,8 +104,16 @@
   display: flex;
 }
 
+/* Make exceptions to CSS above for exterior section */
+#main-content-service-cards-exterior {
+    height: auto;
+    flex-wrap: wrap;
+}
+
 #main-content-service-cards-exterior .service-card {
-    width: 25%;
+    width: 30%;
+    height: auto;
+    margin-bottom: 8.5%;
 }
 
 .service-card {
