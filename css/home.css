@@ -113,7 +113,7 @@
 #main-content-service-cards-exterior .service-card {
     width: 30%;
     height: auto;
-    margin-bottom: 8.5%;
+    margin-bottom: 7.5%;
 }
 
 .service-card {
@@ -457,7 +457,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center; 
-    padding: 5%; 
+    padding: 0 5% 5% 5%; 
     color: grey;
   }
   
