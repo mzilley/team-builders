@@ -104,10 +104,6 @@
   display: flex;
 }
 
-#main-content-service-cards-exterior {
-    height: 100%;
-}
-
 /* Used in the exterior remodeling section since there are 5 categories so we need to have two rows */
 /* .service-card-row .service-card {
     width: 30%;
