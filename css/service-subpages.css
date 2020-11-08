@@ -116,8 +116,6 @@
   left: 0;
   right: 0;
   bottom: 0;
-  /* -webkit-transition: background 600ms;
-  transition: background 600ms; */
 }
 .subpage-content {
   text-align: center;
@@ -142,7 +140,6 @@
   background: #fff;
   text-align: left;
   padding: 15px;
-  /* width: 300px; */
   width: 100%;
   margin: 2%;
   min-height: 50px;
@@ -209,7 +206,6 @@
     overflow: hidden;
   }
   .handle {
-    /* Thin line seperator */
     position: absolute;
     left: 50%;
     top: 0;

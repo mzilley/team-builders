@@ -110,6 +110,11 @@ body {
   align-items: center;
 }
 
+.align-right {
+    display: flex;
+    justify-content: right;
+}
+
 .col {
   width: 100%;
 }
