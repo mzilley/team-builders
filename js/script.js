@@ -66,7 +66,7 @@ jQuery(document).ready(function($) {
         dots: false,
         arrows: false,
         infinite: true,
-        speed: 400,
+        speed: 1000,
         fade: false,
         autoplay: true,
         cssEase: 'linear'
@@ -79,7 +79,7 @@ jQuery(document).ready(function($) {
       prevArrow: '<img src="/images/home/prev.png" class="prev">',
       nextArrow: '<img src="/images/home/next.png" class="next">',
       infinite: false,
-      speed: 300,
+      speed: 500,
       slidesToShow: 3,
       slidesToScroll: 1,
       responsive: [
