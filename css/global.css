@@ -175,11 +175,6 @@ body {
     background: #9AB858;
   }
   
-  .btn-primary:hover {
-    background: #9AB858;
-    color: #9AB858;
-  }
-  
   .btn-secondary {
     color: #9AB858;
     border: 2px solid #fff;
