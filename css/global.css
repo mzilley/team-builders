@@ -180,3 +180,18 @@ body {
     border: 2px solid #fff;
     background: #fff;
   }
+
+  .btn-calendly {
+      background: #1DA2FF;
+      color: #fff;
+      background: #1DA2FF;
+      color: #fff;
+      z-index: 99999;
+      position: fixed;
+      bottom: 0;
+      right: 0;
+  }
+
+  .powered-by {
+      font-size: 12px;
+  }

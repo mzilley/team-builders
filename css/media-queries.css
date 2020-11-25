@@ -149,7 +149,7 @@
     display: none;
   }
   .gradient-banner {
-    padding: 7% 5%;
+    padding: 7% 5%!important;
   }
   .gradient-banner a {
     padding: 10px 35px;
@@ -166,6 +166,9 @@
   }
   .below-main-content, .below-main-content-image {
     width: 100%!important;
+  }
+  .subpage {
+      top: 100px;
   }
   #contactus p, #contactus h1 {
     width: 100%;
