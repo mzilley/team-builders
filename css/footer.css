@@ -45,6 +45,14 @@
       padding: 0;
       padding-top: 35px;
   }
+
+  footer #mc_embed_signup_scroll {
+      width: 100%;
+  }
+
+  footer .clear {
+      
+  }
   
   footer #mc_embed_signup input.email {
       width: 95%!important;
