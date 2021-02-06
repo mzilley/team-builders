@@ -1,309 +1,302 @@
 /* Subpage */
 .h1 {
-  font-size: 24px;
-  text-transform: none;
-  margin: 2% 0;
-}
-.hero-nav {
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding-top: 85px;
-  display: -webkit-box;
-  -webkit-box-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-          align-items: center;
-  height: 450px;
-  min-height: 105px;
-  background-size: cover;
-  background-position: center;
-}
-
-.hero-nav.exterior-remodeling {
-  background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/decks/1554128996356_large_wooden_deck.jpg);
-}
-
-.hero-nav.interior-remodeling {
-  background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/basement-renovations/basement-renovation.jpeg);
-}
-
-/* .hero-nav.bathroom {
-  background-image: url(/images/work/bathroom-renovations/bathroom-2.png);
-  background-position: 0px -110px;
-  background-size: cover;
-  background-repeat: no-repeat;
-} */
-
-.hero-nav.basement {
-  background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/basement-renovations/basement-renovation.jpeg);
-}
-
-.hero-nav.kitchen {
-  background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/kitchen-renovations/kitchen-renovation-island.jpeg);
-}
-
-.hero-nav.fencing {
-  background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/fencing/fence.png);
-}
-
-.hero-nav.deck {
-  background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/decks/DJI_0140.JPG);
-  background-position: top;
-}
-
-.hero-nav.pergola {
-  background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/pergolas/p1.jpg);   
-  background-position: center 25%;
-}
-
-.hero-nav.siding {
-  background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/siding/siding.png);
-}
-
-.hero-nav.shed {
-  background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/shed-houses/shed-homes-shouses.png);
-}
-
-.hero-nav.shed-homes {
-  background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/shed-houses/Website-roofing-final.png);
-}
-
-.hero-nav.roofing {
-  background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/roofing/DJI_0665.JPG);
-}
-
-.hero-nav.commercial {
-  background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/commercial/9.png);
-}
-
-.hero-nav.event {
-  background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/event-venues/event-venue-1.png);
-}
-
-.hero-nav.team {
-  background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/team/founders.jpg);
-  background-position: 0 20%;
-}
-
-.hero-nav.process {
-  background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/basement-renovations/basement-renovation.jpeg);
-}
-
-.hero-nav .hero-nav__inner {
-  position: relative;
-  top: 50%;
-  text-align: center;
-  background-color: white;
-  padding: 30px 35px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 14px 2px;
-  z-index: 998;
-}
-.hero-nav h1 {
-  color: #666;
-  font-size: 32px;
-  margin: 0 0 2% 0;
-}
-.hero-nav span {
-  padding: 15px;
-  color: #9AB858;
-  font-size: 24px;
-}
-.hero-nav:before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-.subpage-content {
-  text-align: center;
-  width: 65%;
-  margin: 10% auto 0 auto;
-  line-height: 1.625;
-}
-.text-align-left {
-  text-align: left;
-}
-.col .feature-container {
-   margin-left: -2%;
-   margin-top: 5%;
-}
-.col .feature-container div.feature {
-  width: 100%;
-  min-width: 0%;
-}
-.feature {
-  display: flex;
-  align-items: center;
-  background: #fff;
-  text-align: left;
-  padding: 15px;
-  width: 100%;
-  margin: 2%;
-  min-height: 50px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 14px 2px;
-}
-
-.col .feature-container .feature {
-  width: 100%;
-  min-width: 100%;
-}
-
-.feature p {
-  background: #fff;
-  padding: 10px;
-}
-
-.feature a:hover {
-  text-decoration: underline;
-}
-
-/* Our Process */
-.fa-check-circle {
-  color: #9AB858;
-  margin-right: 15px;
-  font-size: 20px!important;
-}
-.process-details-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 5%;
-}
-.process-list-item {
-  display: flex;
-  align-items: center;
-  width: 40%;
-  background: #fff;
-  margin: 1%;
-  padding: 15px;
-  min-height: 65px;
-  box-shadow: rgba(0, 0, 0, 0.07) 0px 5px 14px 2px;
-}
-
-.process-list-item p {
-  line-height: 1;
-}
-
-.ba-slider {
+    font-size: 24px;
+    text-transform: none;
+    margin: 2% 0;
+  }
+  .hero-nav {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-top: 85px;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+            align-items: center;
+    height: 450px;
+    min-height: 105px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .hero-nav.exterior-remodeling {
+    background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/decks/1554128996356_large_wooden_deck.jpg);
+  }
+  
+  .hero-nav.interior-remodeling {
+    background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/basement-renovations/basement-renovation.jpeg);
+  }
+  
+  /* .hero-nav.bathroom {c
+    background-image: url(/images/work/bathroom-renovations/bathroom-2.png);
+    background-position: 0px -110px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  } */
+  
+  .hero-nav.basement {
+    background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/basement-renovations/basement-renovation.jpeg);
+  }
+  
+  .hero-nav.kitchen {
+    background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/kitchen-renovations/kitchen-renovation-island.jpeg);
+  }
+  
+  .hero-nav.fencing {
+    background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/fencing/fence.png);
+  }
+  
+  .hero-nav.deck {
+    background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/decks/DJI_0140.JPG);
+    background-position: top;
+  }
+  
+  .hero-nav.pergola {
+    background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/pergolas/p1.jpg);   
+    background-position: center 25%;
+  }
+  
+  .hero-nav.siding {
+    background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/siding/siding.png);
+  }
+  
+  .hero-nav.shed {
+    background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/shed-houses/shed-homes-shouses.png);
+  }
+  
+  .hero-nav.shed-homes {
+    background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/shed-houses/Website-roofing-final.png);
+  }
+  
+  .hero-nav.roofing {
+    background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/roofing/DJI_0665.JPG);
+  }
+  
+  .hero-nav.commercial {
+    background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/commercial/9.png);
+  }
+  
+  .hero-nav.event {
+    background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/event-venues/event-venue-1.png);
+  }
+  
+  .hero-nav.team {
+    background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/team/founders.jpg);
+    background-position: 0 20%;
+  }
+  
+  .hero-nav.process {
+    background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/basement-renovations/basement-renovation.jpeg);
+  }
+  
+  .hero-nav .hero-nav__inner {
     position: relative;
-    overflow: hidden;
-    max-height: 625px;
+    top: 50%;
+    text-align: center;
+    background-color: white;
+    padding: 30px 35px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 14px 2px;
+    z-index: 998;
   }
-  .ba-slider img {
-    width: 100%;
-    display: block;
-    height: 100%;
-    object-fit: cover;
+  .hero-nav h1 {
+    color: #666;
+    font-size: 32px;
+    margin: 0 0 2% 0;
   }
-  .resize {
+  .hero-nav span {
+    padding: 15px;
+    color: #9AB858;
+    font-size: 24px;
+  }
+  .hero-nav:before {
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
-    width: 50%;
-    overflow: hidden;
-  }
-  .handle {
-    position: absolute;
-    left: 50%;
-    top: 0;
+    right: 0;
     bottom: 0;
-    width: 2px;
-    margin-left: -2px;
-    background: #666;
-    cursor: ew-resize;
   }
-  .handle:after {
-      position: absolute;
-      top: 50%;
-      width: 100px;
-      height: 50px;
-      margin: -32px 0 0 -50px;
-      content: 'Drag';
-      color: white;
-      font-size: 16px;
-      text-align: center;
-      line-height: 50px;
-      background: #9AB858;
-      transition: 0.3s ease-in-out all;
+  .subpage-content {
+    text-align: center;
+    width: 65%;
+    margin: 10% auto 0 auto;
+    line-height: 1.625;
   }
-
-  #referral-program-container {
-    display: flex;
-    justify-content: center;
-    margin: 5% 0;
-  }
-  
-  #referral-program-container .level {
-    padding: 25px;
-    margin: 15px;
-    border-top: 5px solid #9AB858;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 14px 2px;
+  .text-align-left {
     text-align: left;
   }
-
-  /* Gradient Banners */
-.gradient-banner {
-    background: linear-gradient(90deg, rgb(145, 197, 96, 0.75) 0%, rgba(145, 197, 96, 1) 100%);
-    color: #fff;
-    font-size: 20px;
-    padding: 3% 2%;
+  .col .feature-container {
+     margin-left: -2%;
+     margin-top: 5%;
+  }
+  .col .feature-container div.feature {
+    width: 100%;
+    min-width: 0%;
+  }
+  .feature {
     display: flex;
-    justify-content: center; 
     align-items: center;
+    background: #fff;
+    text-align: left;
+    padding: 15px;
+    width: 100%;
+    margin: 2%;
+    min-height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 14px 2px;
   }
   
-  .gradient-banner a {
-    font-size: 16px;
-    text-align: center;
-    padding: 15px 25px;
-    text-transform: uppercase;
+  .col .feature-container .feature {
+    width: 100%;
+    min-width: 100%;
   }
   
-  .triangle {
-      width: 0;
-      height: 0;
-      border-width: 7px 14px 7px 0;
-      border-color: transparent #FFFFFF transparent transparent;
-      border-style: solid;
+  .feature p {
+    background: #fff;
+    padding: 10px;
   }
   
-  .gradient-banner span {
-    text-align: center;
+  .feature a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Our Process */
+  .fa-check-circle {
+    color: #9AB858;
     margin-right: 15px;
-    width: 75%;
+    font-size: 20px!important;
   }
-  
-  .gradient-content {
+  .process-details-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+  }
+  .process-list-item {
     display: flex;
     align-items: center;
+    width: 40%;
+    background: #fff;
+    margin: 1%;
+    padding: 15px;
+    min-height: 65px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 5px 14px 2px;
   }
-
-  .contact-info-container {
+  
+  .process-list-item p {
+    line-height: 1;
+  }
+  
+  .ba-slider {
+      position: relative;
+      overflow: hidden;
+      max-height: 625px;
+    }
+    .ba-slider img {
+      width: 100%;
+      display: block;
+      height: 100%;
+      object-fit: cover;
+    }
+    .resize {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 50%;
+      overflow: hidden;
+    }
+    .handle {
+      position: absolute;
+      left: 50%;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      margin-left: -2px;
+      background: #666;
+      cursor: ew-resize;
+    }
+    .handle:after {
+        position: absolute;
+        top: 50%;
+        width: 100px;
+        height: 50px;
+        margin: -32px 0 0 -50px;
+        content: 'Drag';
+        color: white;
+        font-size: 16px;
+        text-align: center;
+        line-height: 50px;
+        background: #9AB858;
+        transition: 0.3s ease-in-out all;
+    }
+  
+    #referral-program-container {
       display: flex;
       justify-content: center;
-  }
-
-  .contact-info-container div{
-    margin: 0 5%;
-}
-
-.contact-info-container i{
-    font-size: 32px;
-    color: #9AB858;
-}
-
-.calendly {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: 9999;
-    background: #fff;
-    height: 100%;
-}
+      margin: 5% 0;
+    }
+    
+    #referral-program-container .level {
+      padding: 25px;
+      margin: 15px;
+      border-top: 5px solid #9AB858;
+      box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 14px 2px;
+      text-align: left;
+    }
   
+    /* Gradient Banners */
+  .gradient-banner {
+      background: linear-gradient(90deg, rgb(145, 197, 96, 0.75) 0%, rgba(145, 197, 96, 1) 100%);
+      color: #fff;
+      font-size: 20px;
+      padding: 3% 2%;
+      display: flex;
+      justify-content: center; 
+      align-items: center;
+    }
+    
+    .gradient-banner a {
+      font-size: 16px;
+      text-align: center;
+      padding: 15px 25px;
+      text-transform: uppercase;
+    }
+    
+    .triangle {
+        width: 0;
+        height: 0;
+        border-width: 7px 14px 7px 0;
+        border-color: transparent #FFFFFF transparent transparent;
+        border-style: solid;
+    }
+    
+    .gradient-banner span {
+      text-align: center;
+      margin-right: 15px;
+      width: 75%;
+    }
+    
+    .gradient-content {
+      display: flex;
+      align-items: center;
+    }
+  
+    .contact-info-container {
+        display: flex;
+        justify-content: center;
+    }
+  
+    .contact-info-container div{
+      margin: 0 5%;
+  }
+  
+  .contact-info-container i{
+      font-size: 32px;
+      color: #9AB858;
+  }
+  
+  .siding-video {
+      width: 75%;
+      margin: 0 auto;
+  }
+    
