@@ -468,6 +468,8 @@
         display: flex;
         align-items: center;
         flex-direction: column;
+        width: 60%;
+        margin: 0 auto;
     }
     #mc_embed_signup label {
         color: #fff;
@@ -484,7 +486,7 @@
     }
   
     #mc_embed_signup input.email {
-        border-radius: 2px!important;
+        border-radius: 0!important;
     }
     #mc_embed_signup input {
         border: 0!important;
