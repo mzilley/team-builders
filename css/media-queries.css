@@ -89,9 +89,6 @@
       justify-content: start!important;
       padding: 15px 15px 15px 40px!important;
     }
-    #feature-menu {
-      display: none;
-    }
   }
   
   @media (max-width: 768px) {
@@ -364,10 +361,10 @@
   }
   
   @media (max-width: 1450px) {
-    a.client-feedback, a.referral-program, a.roof-estimate {
-      display: none;
-    }
     .our-work-accordion img {
       width: 30%;
+    }
+    #feature-menu {
+        display: none;
       }
   }
