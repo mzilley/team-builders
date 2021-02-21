@@ -85,7 +85,7 @@
   #main-content .btn-secondary {
     background-color: #fff;
     color: #9AB858;
-    text-shadow: none;
+    text-shadow: none!important;
   }
   
   #main-content h2 {

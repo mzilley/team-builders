@@ -494,3 +494,16 @@ $('.roofing-accordion').accordion({
 $('.covid-accordion').accordion({
     "transitionSpeed": 400
 });
+
+$(document).ready(function(){
+    $(window).scroll(function(){
+        var scroll = $(window).scrollTop();
+        if (scroll > 0) {
+          $("nav").css("background" , "transparent");
+        }
+  
+        else{
+            $("nav").css("background" , "#fff");  	
+        }
+    })
+  })
