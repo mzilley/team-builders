@@ -177,7 +177,7 @@
   }
 
   .covid-accordion a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
   
   /* Slider */
@@ -302,8 +302,8 @@
     
     /* Alert */
     .alert {
-      position: absolute;
-      top: 85px;
+      position: fixed;
+      top: 0;
       width: 100%;
       background: #9AB858;
       margin-bottom: 0!important;
