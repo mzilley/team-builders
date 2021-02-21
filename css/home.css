@@ -13,7 +13,7 @@
     padding: 0 35px;
   }
   
-  #feature-menu {
+  #feature-menu, #feature-menu-2 {
     display: flex;
     align-items: center;
   }
@@ -22,13 +22,13 @@
     display: flex;
   }
   
-  #main-menu-container #feature-menu > a {
+  #main-menu-container #feature-menu > a, #main-menu-container #feature-menu-2 > a  {
     margin: 20px 7.5px;
     text-transform: uppercase;
     font-size: 14px;
   }
   
-  #main-menu-container #feature-menu > a >span {
+  #main-menu-container #feature-menu > a >span, #main-menu-container #feature-menu-2 > a >span {
     font-size: 18px;
   }
   

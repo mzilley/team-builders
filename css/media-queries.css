@@ -353,6 +353,10 @@
       #social-menu {
           display: none;
       }
+      #feature-menu-2 {
+        display: none;
+      }
+
   }
   
   @media (max-width: 1425px) {

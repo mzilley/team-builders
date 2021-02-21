@@ -499,11 +499,11 @@ $(document).ready(function(){
     $(window).scroll(function(){
         var scroll = $(window).scrollTop();
         if (scroll > 0) {
-          $("nav").css("background" , "transparent");
+          $("nav").css("background" , "#fff");
         }
   
         else{
-            $("nav").css("background" , "#fff");  	
+            $("nav").css("background" , "transparent");  	
         }
     })
   })
