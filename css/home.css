@@ -308,7 +308,7 @@
     .phone-number {
       padding: 12.5px;
       background: #9AB858;
-      color: #fff;
+      color: #fff!important;
       margin-right: 20px!important;
     }
     
