@@ -113,6 +113,7 @@
   .covid-accordion {
     background: #9AB858;
     width: 100%;
+    top: 17.5px;
   }
   
   .covid-accordion [data-accordion] [data-control] {
