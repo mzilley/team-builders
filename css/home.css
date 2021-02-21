@@ -65,18 +65,27 @@
     margin: 0;
   }
 
+  #main-content h1 {
+      font-size: 42px;
+  }
+
+  #main-content h2 {
+    font-size: 32px;
+}
+
   #horo-buttons {
       display: flex;
   }
   
   #main-content .btn {
     margin-top: 10px;
+    margin-right: 10px;
   }
 
   #main-content .btn-secondary {
     background-color: #fff;
-    border: 1px solid #9AB858;
     color: #9AB858;
+    text-shadow: none;
   }
   
   #main-content h2 {
@@ -199,6 +208,7 @@
   nav {
       width: 100%;
       top: 62px;
+      padding: 15px 0;
       display: flex;
       position: fixed;
       justify-content: space-between;
