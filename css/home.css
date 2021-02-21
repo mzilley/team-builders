@@ -322,6 +322,7 @@
       position: fixed;
       top: 0;
       width: 100%;
+      color: #fff;
       background: #9AB858;
       margin-bottom: 0!important;
       z-index: 999;
@@ -335,10 +336,11 @@
       text-align: center;
     }
     
-    .alert p, .alert .strong {
+    .alert a {
       padding: 0 20%;
       color: #fff;
       width: 60%;
+      margin: 5px;
     }
     
     #social-menu a {
