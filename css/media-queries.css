@@ -24,12 +24,7 @@
       margin: 0 10px;
     }
   }
-  
-  @media (min-width: 992px) {
-    #main-content-service-selector-wrapper {
-      top: 67.5vh;
-    }
-  }
+
   
   
   @media (min-width: 768px) {
