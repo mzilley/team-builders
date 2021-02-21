@@ -27,7 +27,7 @@
     margin: 20px 7.5px;
     text-transform: uppercase;
     font-size: 14px;
-    color: #fff;
+    /* color: #fff; */
   }
   
   #main-menu-container #feature-menu > a >span, #main-menu-container #feature-menu-2 > a >span {
@@ -54,7 +54,7 @@
   
   #hero-text {
     position: absolute;
-    top: 35vh;
+    top: 50vh;
     left: 7.5%;
     text-align: left;
   }
@@ -208,14 +208,16 @@
   }
   
   nav {
-      width: 100%;
-      top: 62px;
-      display: flex;
-      position: fixed;
-      justify-content: space-between;
-      align-items: center;
-      margin: 35px auto;
-      z-index: 1000;
+    width: 100%;
+    top: 62px;
+    padding: 15px 0;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    z-index: 1000;
+    background-color: #fff;
       /* box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 14px 2px; */
   }
     
