@@ -499,11 +499,15 @@ $(document).ready(function(){
     $(window).scroll(function(){
         var scroll = $(window).scrollTop();
         if (scroll > 0) {
-          $("nav").css("background" , "#fff");
+            $("nav").css("background", "#fff");
+            $("#feature-menu").css("color", "#666");
+            $("#feature-menu-2").css("color" , "#666");
         }
   
         else{
-            $("nav").css("background" , "transparent");  	
+            $("nav").css("background", "transparent");  
+            $("#feature-menu").css("color", "#fff");
+            $("#feature-menu-2").css("color" , "#fff");
         }
     })
   })

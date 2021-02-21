@@ -359,7 +359,7 @@
 
   }
   
-  @media (max-width: 1425px) {
+  @media (max-width: 1600px) {
     .our-work-accordion img {
       width: 30%;
     }
