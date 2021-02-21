@@ -1,3 +1,13 @@
+/* Alert Section */
+.insurance-claims-alert {
+    text-align: center;
+    color: #fff;
+}
+
+.insurance-claims-alert:hover {
+    text-decoration: underline;
+}
+
 /* Hero */
 #main-nav-logo {
     padding: 0 35px;
@@ -90,10 +100,9 @@
   
   [id^="main-content-service-cards"] {
     justify-content: center;
-    height: 40vh;
+    /* height: 40vh; */
     width: 85%;
     margin: 0 auto;
-    margin-top: -7.5%;
     display: flex;
   }
   
