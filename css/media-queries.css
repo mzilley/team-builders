@@ -279,12 +279,9 @@
   }
   
   @media (max-width: 525px) {
-    #main-content, .fade .slick-slider img {
+    /* #main-content, .fade .slick-slider img {
           height: 88vh;
-    } 
-    [id^="main-content-service-cards"] {
-      margin-top: -35%;
-    }
+    }  */
     #main-content h1 {
       top: 27.5%;
       font-size: 24px;
@@ -296,9 +293,6 @@
     #main-content-service-selector-wrapper {
       top: 50vh;
     }
-    #hero-text {
-      top: 40vh; 
-   }
     .subpage-content {
       margin: 40% auto 0 auto!important;
     }
