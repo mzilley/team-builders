@@ -495,7 +495,16 @@ $('.covid-accordion').accordion({
     "transitionSpeed": 400
 });
 
-$(document).ready(function(){
+$(document).ready(function () {
+    // Set correct nav bg color on load
+    if (scroll > 50) {
+        $("nav").css("background-color", "rgba(255,255,255)");
+    }
+
+    else{
+        $("nav").css("background-color", "rgba(255,255,255, 0.75)");  
+    }
+    
     $(window).scroll(function(){
         var scroll = $(window).scrollTop();
         if (scroll > 50) {
@@ -510,15 +519,4 @@ $(document).ready(function(){
             // $("#feature-menu-2 a").css("color" , "#fff");
         }
     });
-    if (scroll > 50) {
-        $("nav").css("background-color", "rgba(255,255,255)");
-        // $("#feature-menu a").css("color", "#666");
-        // $("#feature-menu-2 a").css("color" , "#666");
-    }
-
-    else{
-        $("nav").css("background-color", "rgba(255,255,255, 0.75)");  
-        // $("#feature-menu a").css("color", "#fff");
-        // $("#feature-menu-2 a").css("color" , "#fff");
-    }
   })
