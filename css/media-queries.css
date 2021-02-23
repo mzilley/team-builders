@@ -97,6 +97,9 @@
     [id^="main-content-service-cards"] {
         width: 90%!important;
     }
+    #main-content-service-selector-wrapper {
+        margin: 10% auto;
+    }
     .service-card {
       width: 100%!important;
       margin: 0 auto 7.5% auto;
