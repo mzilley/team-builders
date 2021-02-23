@@ -504,19 +504,19 @@ $(document).ready(function () {
     else{
         $("nav").css("background-color", "rgba(255,255,255, 0.75)");  
     }
-    
+
     $(window).scroll(function(){
         var scroll = $(window).scrollTop();
         if (scroll > 50) {
             $("nav").css("background-color", "rgba(255,255,255)");
-            // $("#feature-menu a").css("color", "#666");
-            // $("#feature-menu-2 a").css("color" , "#666");
+            $("#feature-menu a").css("color", "#666");
+            $("#feature-menu-2 a").css("color" , "#666");
         }
   
         else{
             $("nav").css("background-color", "rgba(255,255,255, 0.75)");  
-            // $("#feature-menu a").css("color", "#fff");
-            // $("#feature-menu-2 a").css("color" , "#fff");
+            $("#feature-menu a").css("color", "#333");
+            $("#feature-menu-2 a").css("color" , "#333");
         }
     });
   })
