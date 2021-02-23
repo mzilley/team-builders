@@ -509,5 +509,16 @@ $(document).ready(function(){
             // $("#feature-menu a").css("color", "#fff");
             // $("#feature-menu-2 a").css("color" , "#fff");
         }
-    })
+    });
+    if (scroll > 50) {
+        $("nav").css("background-color", "rgba(255,255,255)");
+        // $("#feature-menu a").css("color", "#666");
+        // $("#feature-menu-2 a").css("color" , "#666");
+    }
+
+    else{
+        $("nav").css("background-color", "rgba(255,255,255, 0.75)");  
+        // $("#feature-menu a").css("color", "#fff");
+        // $("#feature-menu-2 a").css("color" , "#fff");
+    }
   })
