@@ -499,13 +499,13 @@ $(document).ready(function(){
     $(window).scroll(function(){
         var scroll = $(window).scrollTop();
         if (scroll > 0) {
-            $("nav").css("background", "rgba(255,255,255)");
+            $("nav").css("background-color", "rgba(255,255,255)");
             // $("#feature-menu a").css("color", "#666");
             // $("#feature-menu-2 a").css("color" , "#666");
         }
   
         else{
-            $("nav").css("background", "rgba(255,255,255, 0.75)");  
+            $("nav").css("background-color", "rgba(255,255,255, 0.75)");  
             // $("#feature-menu a").css("color", "#fff");
             // $("#feature-menu-2 a").css("color" , "#fff");
         }
