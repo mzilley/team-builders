@@ -495,19 +495,19 @@ $('.covid-accordion').accordion({
     "transitionSpeed": 400
 });
 
-// $(document).ready(function(){
-//     $(window).scroll(function(){
-//         var scroll = $(window).scrollTop();
-//         if (scroll > 0) {
-//             $("nav").css("background", "#fff");
-//             $("#feature-menu a").css("color", "#666");
-//             $("#feature-menu-2 a").css("color" , "#666");
-//         }
+$(document).ready(function(){
+    $(window).scroll(function(){
+        var scroll = $(window).scrollTop();
+        if (scroll > 0) {
+            $("nav").css("background", "rgba(255,255,255)");
+            // $("#feature-menu a").css("color", "#666");
+            // $("#feature-menu-2 a").css("color" , "#666");
+        }
   
-//         else{
-//             $("nav").css("background", "transparent");  
-//             $("#feature-menu a").css("color", "#fff");
-//             $("#feature-menu-2 a").css("color" , "#fff");
-//         }
-//     })
-//   })
+        else{
+            $("nav").css("background", "rgba(255,255,255, 0.75)");  
+            // $("#feature-menu a").css("color", "#fff");
+            // $("#feature-menu-2 a").css("color" , "#fff");
+        }
+    })
+  })
