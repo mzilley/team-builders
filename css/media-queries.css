@@ -196,7 +196,7 @@
       width: 100%;
     }
     .alert {
-      padding: 12.5px 0!important;
+      padding: 7px 0!important;
     }
     li {
       padding: 3px 0;
@@ -292,13 +292,12 @@
     #main-content h2 {
       top: 32.5%;
       font-size: 16px;
-      margin: 0 5%;
     }
     #main-content-service-selector-wrapper {
       top: 50vh;
     }
     #hero-text {
-      top: 27.5vh; 
+      top: 40vh; 
    }
     .subpage-content {
       margin: 40% auto 0 auto!important;
