@@ -498,7 +498,7 @@ $('.covid-accordion').accordion({
 $(document).ready(function(){
     $(window).scroll(function(){
         var scroll = $(window).scrollTop();
-        if (scroll > 0) {
+        if (scroll > 50) {
             $("nav").css("background-color", "rgba(255,255,255)");
             // $("#feature-menu a").css("color", "#666");
             // $("#feature-menu-2 a").css("color" , "#666");
