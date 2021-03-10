@@ -1,5 +1,6 @@
 /* Footer */
 #footer-container {
+    padding-top: 8%;
     padding: 5%;
     background: #f6f6f6;
     display: flex;
@@ -50,9 +51,6 @@
       width: 100%;
   }
 
-  footer .clear {
-      
-  }
   
   footer #mc_embed_signup input.email {
       width: 95%!important;
