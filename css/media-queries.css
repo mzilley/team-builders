@@ -361,7 +361,9 @@
   
   @media (max-width: 1600px) {
     .our-work-accordion img {
-      width: 30%;
+        width: 45%;
+        height: 400px;
+        object-fit: cover;
     }
     #feature-menu {
         display: none;
