@@ -353,7 +353,10 @@
       #feature-menu-2 {
         display: none;
       }
-
+      .our-work-accordion img {
+        width: 100%;
+        padding-left: 0;
+      }
   }
   
   @media (max-width: 1600px) {
