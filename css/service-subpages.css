@@ -29,15 +29,8 @@
     background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/basement-renovations/basement-renovation.jpeg);
   }
   
-  /* .hero-nav.bathroom {c
-    background-image: url(/images/work/bathroom-renovations/bathroom-2.png);
-    background-position: 0px -110px;
-    background-size: cover;
-    background-repeat: no-repeat;
-  } */
-  
   .hero-nav.basement {
-    background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/basement-renovations/basement-renovation.jpeg);
+    background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/basement-renovations/basement-cover.jpg);
   }
   
   .hero-nav.kitchen {

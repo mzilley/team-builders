@@ -1,7 +1,6 @@
 /* Footer */
 #footer-container {
-    padding-top: 8%;
-    padding: 5%;
+    padding: 7.5% 5% 5% 5%;
     background: #f6f6f6;
     display: flex;
   }

@@ -321,6 +321,9 @@
       border-right: 1px solid #999;
       padding-right: 15px;
     }
+    .eapps-widget-toolbar a:last-child {
+        display: none;
+    }
     
     /* Alert */
     .alert {
