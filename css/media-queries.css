@@ -369,3 +369,9 @@
         display: none;
       }
   }
+
+  .our-work-accordion img {
+    width: 45%;
+    height: 400px;
+    object-fit: cover;
+}
