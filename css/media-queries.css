@@ -316,7 +316,8 @@
       margin: 0;
     }
     .our-work-image {
-      max-width: 100%;
+      width: 100%;
+      max-height: none;
     }
     .testimonial-container {
       padding-top: 10%;
