@@ -373,5 +373,6 @@
   .our-work-accordion img {
     width: 45%;
     height: 400px!important;
+    max-height: 400px;
     object-fit: cover;
 }
