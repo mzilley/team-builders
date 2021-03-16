@@ -239,7 +239,7 @@
   
     /* Gradient Banners */
   .gradient-banner {
-      background: linear-gradient(90deg, rgb(145, 197, 96, 0.75) 0%, rgba(145, 197, 96, 1) 100%);
+      background: linear-gradient(90deg, rgb(145, 197, 96, 0.825) 0%, rgba(145, 197, 96, 1) 100%);
       color: #fff;
       font-size: 20px;
       padding: 3% 2%;

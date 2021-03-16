@@ -91,6 +91,9 @@
       body {
           overflow-x: hidden;
       }
+      .home nav {
+          top: 46px;
+      }
     [id^="main-content-service-cards"], #main-content-service-selector {
       flex-direction: column;
       height: auto;
