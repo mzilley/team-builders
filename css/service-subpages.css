@@ -45,6 +45,11 @@
     background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/decks/DJI_0140.JPG);
     background-position: top;
   }
+
+  .hero-nav.deck {
+    background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/gutters/gutter-hero.jpg);
+    background-position: top;
+  }
   
   .hero-nav.pergola {
     background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/pergolas/p1.jpg);   
