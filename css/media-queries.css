@@ -354,12 +354,16 @@
       #social-menu {
           display: none;
       }
-      #feature-menu-2 {
-        display: none;
-      }
+     
       .our-work-accordion img {
         width: 100%!important;
         padding-left: 0;
+      }
+  }
+
+  @media (max-width: 1492px) {
+    #feature-menu-2 {
+        display: none;
       }
   }
   
@@ -369,9 +373,6 @@
         height: 400px!important;
         object-fit: cover;
     }
-    #feature-menu {
-        display: none;
-      }
   }
 
   .our-work-accordion img {
