@@ -63,15 +63,9 @@ jQuery(document).ready(function($) {
         }
     });
 
-      // Calendly iFrame
-    //   $('.calendly').hide();
-    //   $('.calendly-scheduler').on('click', function() {
-    //     $('.calendly').show("3250");
-    //   });
-
-    //   $('#calendly-scheduler-close').on('click', function() {
-    //     $('.calendly').hide("3250");
-    //   });
+    $(img).each(function () {
+        $(this).addClass('lazyload');
+    })
 
       // Menu Toggle
       $('.openbtn').on('click', function() {
