@@ -107,7 +107,7 @@
           padding: 15px 0;
       }
       .sidebar a {
-          padding: 8px 8px 6px 32px;
+          padding: 7.5px 8px 6px 32px;
           font-size: 16px;
       }
     [id^="main-content-service-cards"], #main-content-service-selector {
@@ -396,7 +396,10 @@
         margin: 15px;
     }
     #sub-footer-container span {
-        margin: 4.5% 3%;
+        margin: 4.5% 3%!important;
+    }
+    .kZzuBe {
+        margin: 5px 35px!important;
     }
   }
   

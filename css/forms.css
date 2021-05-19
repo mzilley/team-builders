@@ -42,3 +42,8 @@
           width: 100%;
       }
   }
+  @media (max-width: 525px) {
+    iframe {
+        width: 90%;
+    }
+}

@@ -596,3 +596,9 @@
 #employment-application iframe {
     height: 1425px;
 }
+
+/* Helpers */
+img {
+    width: 100%;
+    height: 100%;
+}
