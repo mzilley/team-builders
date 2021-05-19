@@ -10,7 +10,7 @@
 
 /* Hero */
   #main-content {
-      min-height: calc(100vh - 85px);
+      height: 100vh;
       background: transparent;
   }
   #main-nav-logo {
@@ -60,6 +60,7 @@
     position: absolute;
     top: 50vh;
     left: 7.5%;
+    right: 7.5%;
     text-align: left;
   }
   
