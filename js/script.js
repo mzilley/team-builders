@@ -44,9 +44,7 @@ jQuery(document).ready(function($) {
     // Set correct nav bg color on load
     if (scroll > 50) {
         $("nav").css("background-color", "rgba(255,255,255)");
-    }
-
-    else{
+    } else {
         $("nav").css("background-color", "rgba(255,255,255, 0.75)");  
     }
 
@@ -76,13 +74,12 @@ jQuery(document).ready(function($) {
     //   });
 
       // Menu Toggle
-      $('#main-menu').hide();
       $('.openbtn').on('click', function() {
-        $('#main-menu').show();
+        $('.sidebar').css('display', 'block');
       });
 
       $('.closebtn').on('click', function() {
-        $('#main-menu').hide();
+        $('.sidebar').css('display', 'none');
       });
 
     // Testimonials Slider
