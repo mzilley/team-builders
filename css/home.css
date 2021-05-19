@@ -10,8 +10,8 @@
 
 /* Hero */
   #main-content {
-      height: 100vh;
-      background: red;
+      min-height: 100vh;
+      background: transparent;
   }
   #main-nav-logo {
     padding: 0 35px;
