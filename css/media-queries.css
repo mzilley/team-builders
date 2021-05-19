@@ -347,7 +347,7 @@
       background-position: center!important;
     }
     .testimonial {
-      min-height: 400px!important;
+      min-height: 425px!important;
       margin-bottom: 75px;
     }
     .testimonial-container {
@@ -355,7 +355,7 @@
     }
     .next, .prev {
         position: relative;
-        top: 250px;
+        top: 225px;
     }
     iframe {
         width: 90%;
