@@ -1,7 +1,7 @@
 jQuery(document).ready(function($) {
-  const templates = ["footer", "navbar", "contactus"];
+  const templates = ["footer", "navbar", "contactus", "footerscripts"];
 
   templates.forEach((template) => {
-    $(`#${template}`).load(`templates/${template}`);
+    $(`#${template}`).load(`templates/${template}.html`);
   });
 });
