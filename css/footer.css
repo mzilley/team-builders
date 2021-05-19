@@ -54,5 +54,6 @@
   footer #mc_embed_signup input.email {
       width: 95%!important;
       background: transparent!important;
-      border: 1px solid #999!important;
+      border: 1px solid #666!important;
+      font-family: 'PT Sans', sans-serif;
   }

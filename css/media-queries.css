@@ -392,6 +392,9 @@
         width: 100%!important;
         margin: 15px;
     }
+    #sub-footer-container span {
+        margin: 4.5% 3%;
+    }
   }
   
   @media (max-width: 992px) {
