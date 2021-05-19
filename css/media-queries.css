@@ -300,11 +300,13 @@
       flex-direction: column;
     }
     .testimonial {
-        margin-bottom: 75px;
-        min-height: 490px;
+        min-height: 490px!important;
     }
     .testimonial p {
         padding: 0 20px 20px 20px;
+    }
+    .testimonial .quote {
+        padding: 10px 20px;
     }
     .next, .prev {
         position: relative;
