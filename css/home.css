@@ -403,7 +403,7 @@
     
     .testimonial {
       box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 14px 2px;
-      margin: 1%;
+      margin: 10px;
       min-height: 325px!important;
       display: flex!important;
       flex-direction: column;
