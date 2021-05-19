@@ -40,6 +40,30 @@ jQuery(document).ready(function($) {
         $('#collapsed-menu-shed').slideToggle();
         $(this).children().toggleClass("rotate"); 
       });
+    
+    // Set correct nav bg color on load
+    if (scroll > 50) {
+        $("nav").css("background-color", "rgba(255,255,255)");
+    }
+
+    else{
+        $("nav").css("background-color", "rgba(255,255,255, 0.75)");  
+    }
+
+    $(window).scroll(function(){
+        var scroll = $(window).scrollTop();
+        if (scroll > 50) {
+            $("nav").css("background-color", "rgba(255,255,255)");
+            $("#feature-menu a").css("color", "#666");
+            $("#feature-menu-2 a").css("color" , "#666");
+        }
+  
+        else{
+            $("nav").css("background-color", "rgba(255,255,255, 0.75)");  
+            $("#feature-menu a").css("color", "#333");
+            $("#feature-menu-2 a").css("color" , "#333");
+        }
+    });
 
       // Calendly iFrame
     //   $('.calendly').hide();
@@ -58,19 +82,8 @@ jQuery(document).ready(function($) {
       });
 
       $('.closebtn').on('click', function() {
-        $('#main-menu').hide("fast");
+        $('#main-menu').hide();
       });
-
-      // Hero Slick Slider
-    //   $('.fade').slick({
-    //     dots: false,
-    //     arrows: false,
-    //     infinite: true,
-    //     speed: 1000,
-    //     fade: false,
-    //     autoplay: true,
-    //     cssEase: 'linear'
-    //   });
 
     // Testimonials Slider
       $('.testimonials').slick({
@@ -113,7 +126,7 @@ jQuery(document).ready(function($) {
     });
 });
 
-;(function ( $, window, document, undefined ) {
+(function ( $, window, document, undefined ) {
 
     var pluginName = 'accordion',
         defaults = {
@@ -422,29 +435,3 @@ $('.roofing-accordion').accordion({
 $('.covid-accordion').accordion({
     "transitionSpeed": 400
 });
-
-$(document).ready(function () {
-    // Set correct nav bg color on load
-    if (scroll > 50) {
-        $("nav").css("background-color", "rgba(255,255,255)");
-    }
-
-    else{
-        $("nav").css("background-color", "rgba(255,255,255, 0.75)");  
-    }
-
-    $(window).scroll(function(){
-        var scroll = $(window).scrollTop();
-        if (scroll > 50) {
-            $("nav").css("background-color", "rgba(255,255,255)");
-            $("#feature-menu a").css("color", "#666");
-            $("#feature-menu-2 a").css("color" , "#666");
-        }
-  
-        else{
-            $("nav").css("background-color", "rgba(255,255,255, 0.75)");  
-            $("#feature-menu a").css("color", "#333");
-            $("#feature-menu-2 a").css("color" , "#333");
-        }
-    });
-  })
