@@ -63,7 +63,7 @@ jQuery(document).ready(function($) {
         }
     });
 
-    $(img).each(function () {
+    $('img').each(function () {
         $(this).addClass('lazyload');
     })
 
