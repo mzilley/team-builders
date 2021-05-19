@@ -387,6 +387,7 @@
     .testimonials {
       display: flex!important;
       justify-content: center;
+      align-items: center;
     }
   
     .slick-slider {
@@ -450,6 +451,16 @@
     .next, .prev:hover {
       cursor: pointer;
     }
+
+    .testimonials .slick-dots button {
+        border-radius: 50%;
+        border: none;
+        border: 1.5px solid #666666;
+        background: transparent;
+        color: #666666;
+        cursor: pointer;
+    }
+
   
     /* Meet Our Owners */
     #meet-our-owners {
