@@ -305,6 +305,7 @@
     .next, .prev {
         position: relative;
         top: 175px;
+        z-index: 9999;
     }
     .next {
         right: 40%;
@@ -343,7 +344,13 @@
       min-height: 400px!important;
       margin-bottom: 75px;
     }
-
+    .testimonial-container {
+        padding: 5% 0;
+    }
+    .next, .prev {
+        position: relative;
+        top: 250px;
+    }
     .reason {
       margin: 0;
     }
