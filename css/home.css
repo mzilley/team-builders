@@ -221,7 +221,7 @@
   
   nav {
     width: 100%;
-    padding: 15px 0;
+    padding: 5px 0;
     display: flex;
     position: fixed;
     justify-content: space-between;
@@ -234,7 +234,7 @@
   .home nav {
     top: 62px;
     margin: 20px auto;
-    height: 140px;
+    height: 125px;
     background: transparent;
   }
 
