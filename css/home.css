@@ -232,6 +232,12 @@
   .home nav {
     top: 62px;
     margin: 20px auto;
+    height: 140px;
+    background: transparent;
+  }
+
+  .sidebar{
+      display: none;
   }
     
     /* Main Menu */
