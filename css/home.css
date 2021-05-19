@@ -143,6 +143,7 @@
   .service-card {
     background-color: #fff;
     height: 100%;
+    width: 100%;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 14px 2px;
     flex-direction: column;
   }
