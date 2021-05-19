@@ -10,7 +10,7 @@
 
 /* Hero */
   #main-content {
-      min-height: 100vh;
+      min-height: calc(100vh - 85px);
       background: transparent;
   }
   #main-nav-logo {
