@@ -1347,7 +1347,8 @@
     }
     #main-content-service-selector > div {
       width: 32.5%;
-      margin: 2.5% auto;
+      margin: 2% auto;
+      text-align: center;
     }
     [id^="main-content-service-cards"] {
         margin-top: -17.5
