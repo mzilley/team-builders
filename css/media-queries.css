@@ -94,6 +94,19 @@
       .home nav {
           top: 46px;
       }
+      #feature-menu, #main-menu-container .elfsight-app-f4d6485e-4d7d-4d31-a35e-2a08784256cc {
+          display: none;
+      }
+      #collapseMenu .elfsight-app-f4d6485e-4d7d-4d31-a35e-2a08784256cc {
+          display: block;
+      }
+      .sidebar {
+          padding: 15px 0;
+      }
+      .sidebar a {
+          padding: 8px 8px 6px 32px;
+          font-size: 16px;
+      }
     [id^="main-content-service-cards"], #main-content-service-selector {
       flex-direction: column;
       height: auto;
@@ -286,9 +299,6 @@
   }
   
   @media (max-width: 525px) {
-    /* #main-content, .fade .slick-slider img {
-          height: 88vh;
-    }  */
     #main-content h1 {
       top: 27.5%;
       font-size: 24px;

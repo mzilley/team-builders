@@ -9,7 +9,11 @@
 }
 
 /* Hero */
-#main-nav-logo {
+  #main-content {
+      height: 100vh;
+      background: red;
+  }
+  #main-nav-logo {
     padding: 0 35px;
     text-align: center;
   }
@@ -227,6 +231,7 @@
     /* Main Menu */
     #main-menu {
       width: 375px;
+      z-index: 3;
       transition: 0.3s all ease-in-out;
     }
     .sidebar {
@@ -252,6 +257,7 @@
     }
     
     .sidebar a:hover {
+        color: #666666;
       background: #f3f3f3;
     }
     
@@ -345,10 +351,10 @@
     }
     
     .alert a {
-      padding: 0 20%;
+      /*padding: 0 20%;*/
       color: #fff;
-      width: 60%;
-      margin: 5px;
+      width: 100%;
+      margin: 5px auto;
     }
     
     #social-menu a {
