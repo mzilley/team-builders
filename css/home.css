@@ -443,9 +443,8 @@
     }
     
     .next, .prev {
-      height: 32px;
       display: flex;
-       align-self: center;
+      align-self: center;
     }
     
     .next, .prev:hover {

@@ -299,6 +299,19 @@
     .row {
       flex-direction: column;
     }
+    .testimonial {
+        margin-bottom: 75px;
+    }
+    .next, .prev {
+        position: relative;
+        top: 200px;
+    }
+    .next {
+        right: 40%;
+    }
+    .prev {
+        left: 40%;
+    }
   }
   
   @media (max-width: 525px) {
@@ -328,7 +341,9 @@
     }
     .testimonial {
       min-height: 400px!important;
+      margin-bottom: 75px;
     }
+
     .reason {
       margin: 0;
     }
