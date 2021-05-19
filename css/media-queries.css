@@ -301,6 +301,10 @@
     }
     .testimonial {
         margin-bottom: 75px;
+        min-height: 490px;
+    }
+    .testimonial p {
+        padding: 0 20px 20px 20px;
     }
     .next, .prev {
         position: relative;
@@ -350,6 +354,9 @@
     .next, .prev {
         position: relative;
         top: 250px;
+    }
+    iframe {
+        width: 90%;
     }
     .reason {
       margin: 0;
