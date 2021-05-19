@@ -333,6 +333,9 @@
     #main-content-service-selector-wrapper {
       top: 50vh;
     }
+    .openbtn, .closebtn {
+        padding: 0 50px;
+    }
     .subpage-content {
       margin: 40% auto 0 auto!important;
     }
