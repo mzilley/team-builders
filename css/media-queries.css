@@ -26,6 +26,9 @@
     #main-content-service-selector-wrapper {
       top: 75vh!important;
     }
+    footer #mc_embed_signup input.email {
+        max-width: 50%;
+    }
   }
 
   
@@ -64,12 +67,10 @@
     }
     #main-content-service-selector-wrapper {
       top: 52.5vh;
+      height: 250px;
     }
     #main-content h1, #main-content h2 {
       top: 25%;
-    }
-    #main-content, .fade .slick-slider img {
-        height: 88vh;
     }
     #hero-text {
        top: 30vh; 
@@ -215,9 +216,6 @@
     #footer-container ul {
       margin-top: 0;
    }
-    .footer-column {
-      width: 100%;
-    }
     .alert {
       padding: 7px 0!important;
     }
@@ -411,6 +409,9 @@
       .our-work-accordion img {
         width: 100%!important;
         padding-left: 0;
+      }
+      .footer-column {
+        width: 100%;
       }
   }
 
