@@ -69,11 +69,13 @@ jQuery(document).ready(function($) {
 
       // Menu Toggle
       $('.openbtn').on('click', function() {
-        $('.sidebar').css('display', 'block');
+          $('.sidebar').css('display', 'block');
+          $('body').css('position', 'fixed');
       });
 
       $('.closebtn').on('click', function() {
-        $('.sidebar').css('display', 'none');
+          $('.sidebar').css('display', 'none');
+          $('body').css('position', 'unset');
       });
 
     // Testimonials Slider
