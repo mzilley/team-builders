@@ -181,21 +181,6 @@
       border: 2px solid #fff;
       background: #fff;
     }
-  
-    .btn-calendly {
-        background: #1DA2FF;
-        color: #fff;
-        background: #1DA2FF;
-        color: #fff;
-        z-index: 99999;
-        position: fixed;
-        bottom: 0;
-        right: 0;
-    }
-  
-    .powered-by {
-        font-size: 12px;
-    }
 /* ------ */
 /* HOME   */
 /* Alert Section */
@@ -215,15 +200,10 @@
   }
   #main-content img {
     height: 100vh;
-    width: 100%;
     background: transparent;
-    object-fit: cover;
 }
   #main-nav-logo {
     padding: 0 35px;
-    text-align: center;
-    width: 250px;
-    height: 50px;
   }
   
   #feature-menu, #feature-menu-2 {
@@ -971,9 +951,11 @@
   .strong {
     font-weight: 700;
   }
+  
 
 /* ------ */
 /* SERVICES */
+/* Subpage */
 /* Subpage */
 .h1 {
     font-size: 24px;
@@ -1277,8 +1259,10 @@
   #insurance-claims img {
       width: 100%;
   }
+    
 /* ------ */
 /* FOOTER */
+/* Footer */
 /* Footer */
 #footer-container {
     padding: 7.5% 5% 5% 5%;
@@ -1350,8 +1334,7 @@
     }
     #main-content-service-selector > div {
       width: 32.5%;
-      margin: 2% auto;
-      text-align: center;
+      margin: 2.5% auto;
     }
     [id^="main-content-service-cards"] {
         margin-top: -17.5
@@ -1372,6 +1355,9 @@
     }
     #main-content-service-selector-wrapper {
       top: 75vh!important;
+    }
+    footer #mc_embed_signup input.email {
+        max-width: 50%;
     }
   }
 
@@ -1411,12 +1397,10 @@
     }
     #main-content-service-selector-wrapper {
       top: 52.5vh;
+      height: 250px;
     }
     #main-content h1, #main-content h2 {
       top: 25%;
-    }
-    #main-content, .fade .slick-slider img {
-        height: 88vh;
     }
     #hero-text {
        top: 30vh; 
@@ -1552,19 +1536,12 @@
      #referral-program-container {
        flex-direction: column;
      }
-    #footer-container {
-      flex-direction: column;
-      text-align: center;
-    }
     #footer-container h4 {
       margin-bottom: 0;
     }
     #footer-container ul {
       margin-top: 0;
    }
-    .footer-column {
-      width: 100%;
-    }
     .alert {
       padding: 7px 0!important;
     }
@@ -1758,6 +1735,16 @@
       .our-work-accordion img {
         width: 100%!important;
         padding-left: 0;
+      }
+      .footer-column {
+        width: 100%;
+      }
+      .footer-column li {
+          padding: 0;
+      }
+      #footer-container {
+        flex-direction: column;
+        text-align: center;
       }
   }
 
