@@ -211,6 +211,15 @@
     align-items: center;
   }
   
+  #feature-menu-3 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  #feature-menu-3 a {
+    margin-bottom: 8px;
+}
+
   #main-menu-container {
     display: flex;
   }
@@ -518,7 +527,7 @@
       padding: 12.5px;
       background: #9AB858;
       color: #fff!important;
-      margin-right: 20px!important;
+      /* margin-right: 20px!important; */
     }
     
     .feature-menu a {
