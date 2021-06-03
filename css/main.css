@@ -17,7 +17,7 @@
     overflow-x: hidden;
   }
   
-  h1, h2, h3, h4, h5, h6, a, p, li {
+  h1, h2, h3, h4, h5, h6, a, p, li, small {
     color: #666;
     font-weight: 400;
   }
@@ -215,10 +215,12 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
+      text-align: center;
   }
+
   #feature-menu-3 a {
-    margin-bottom: 8px;
-}
+    margin: 3px 0;
+  }
 
   #main-menu-container {
     display: flex;
