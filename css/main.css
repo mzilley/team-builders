@@ -210,14 +210,9 @@
     display: flex;
     align-items: center;
   }
-  
-  #feature-menu-3 {
-      flex-direction: column;
-      text-align: center;
-  }
 
   #feature-menu-3 a {
-    margin: 3px 0;
+    margin: 0 5px;
   }
 
   #main-menu-container {
@@ -1754,6 +1749,12 @@
       #footer-container {
         flex-direction: column;
         text-align: center;
+      }
+  }
+
+  @media (max-width: 1192px) {
+      #feature-menu {
+          display: none;
       }
   }
 
