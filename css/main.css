@@ -1423,6 +1423,9 @@
       justify-content: start!important;
       padding: 15px 15px 15px 40px!important;
     }
+    #feature-menu-3 {
+        display: none;
+    }
   }
   
   @media (max-width: 768px) {
