@@ -558,6 +558,10 @@
       width: 100%;
       margin: 5px auto;
     }
+
+    #social-menu {
+        text-align: center;
+    }
     
     #social-menu a {
         padding: 0 5px;
