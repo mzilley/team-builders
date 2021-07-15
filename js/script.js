@@ -1,10 +1,4 @@
 jQuery(document).ready(function ($) {
-    // Load Templates
-    const templates = ["footer", "navbar", "contactus"];
-    
-    templates.forEach((template) => {
-    $(`#${template}`).load(`templates/${template}.html`);
-    });
 
     //Service Selector
     $('#select-interior').on('click', function() {
@@ -70,18 +64,21 @@ jQuery(document).ready(function ($) {
       }
   });
 
-    
-});
+    // Menu Toggle
+    $('.openbtn').on('click', function() {
+        $('.sidebar').css('display', 'block');
+    });
 
-// Menu Toggle
-$('.openbtn').on('click', function() {
-    $('.sidebar').css('display', 'block');
-  //   $('body').css('position', 'fixed');
-});
+    $('.closebtn').on('click', function() {
+        $('.sidebar').css('display', 'none');
+    });
 
-$('.closebtn').on('click', function() {
-    $('.sidebar').css('display', 'none');
-  //   $('body').css('position', 'unset');
+    // Load Templates
+    const templates = ["footer", "navbar", "contactus"];
+
+    templates.forEach((template) => {
+    $(`#${template}`).load(`templates/${template}.html`);
+    });
 });
 
 (function ( $, window, document, undefined ) {
