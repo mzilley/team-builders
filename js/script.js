@@ -70,20 +70,18 @@ jQuery(document).ready(function ($) {
       }
   });
 
-  $('img').each(function () {
-      $(this).addClass('lazyload');
-  })
+    
+});
 
-    // Menu Toggle
-    $('.openbtn').on('click', function() {
-        $('.sidebar').css('display', 'block');
-      //   $('body').css('position', 'fixed');
-    });
+// Menu Toggle
+$('.openbtn').on('click', function() {
+    $('.sidebar').css('display', 'block');
+  //   $('body').css('position', 'fixed');
+});
 
-    $('.closebtn').on('click', function() {
-        $('.sidebar').css('display', 'none');
-      //   $('body').css('position', 'unset');
-    });
+$('.closebtn').on('click', function() {
+    $('.sidebar').css('display', 'none');
+  //   $('body').css('position', 'unset');
 });
 
 (function ( $, window, document, undefined ) {
