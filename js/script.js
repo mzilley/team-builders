@@ -70,51 +70,11 @@ jQuery(document).ready(function($) {
       // Menu Toggle
       $('.openbtn').on('click', function() {
           $('.sidebar').css('display', 'block');
-        //   $('body').css('position', 'fixed');
       });
 
       $('.closebtn').on('click', function() {
           $('.sidebar').css('display', 'none');
-        //   $('body').css('position', 'unset');
       });
-
-    // Testimonials Slider
-      $('.testimonials').slick({
-      dots: false,
-      arrows: true,
-      infinite: true,
-      prevArrow: '<img src="/images/home/prev.png" class="prev">',
-      nextArrow: '<img src="/images/home/next.png" class="next">',
-      infinite: false,
-      speed: 500,
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            infinite: true,
-            dots: false
-          }
-        },
-        {
-          breakpoint: 992,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 1
-          }
-        },
-        {
-          breakpoint: 768,
-          settings: {
-              slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        }
-        ]
-    });
 });
 
 (function ( $, window, document, undefined ) {
