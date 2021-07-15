@@ -41,6 +41,12 @@ jQuery(document).ready(function($) {
         $(this).children().toggleClass("rotate"); 
       });
     
+      const templates = ["footer", "navbar", "contactus"];
+      
+      templates.forEach((template) => {
+        $(`#${template}`).load(`templates/${template}.html`);
+      });
+    
     // Set correct nav bg color on load
     if (scroll > 50) {
         $("nav").css("background-color", "rgba(255,255,255)");
@@ -62,10 +68,6 @@ jQuery(document).ready(function($) {
             $("#feature-menu-2 a").css("color" , "#333");
         }
     });
-
-    $('img').each(function () {
-        $(this).addClass('lazyload');
-    })
 
       // Menu Toggle
       $('.openbtn').on('click', function() {
