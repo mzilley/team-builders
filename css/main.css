@@ -1341,7 +1341,6 @@
         flex-direction: column;
     }
     #main-content-service-selector > div {
-      width: 32.5%;
       margin: 2.5% auto;
     }
     [id^="main-content-service-cards"] {
