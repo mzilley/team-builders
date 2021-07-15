@@ -1,51 +1,61 @@
 jQuery(document).ready(function($) {
-      //Service Selector
-      $('#select-interior').on('click', function() {
-        $('#main-content-service-cards-interior').fadeIn("3250").css('display', 'flex');
-        $('#main-content-service-cards-exterior').hide();
-        $('#main-content-service-cards-new-construction').hide();
-        $('#select-interior').addClass('active');
-        $(':not("#select-interior")').removeClass('active');
-      });
-
-      $('#select-exterior').on('click', function() {
-        $('#select-exterior').addClass('active');
-        $('#main-content-service-cards-exterior').fadeIn("3250").css('display', 'flex');
-        $('#main-content-service-cards-interior').hide();
-        $('#main-content-service-cards-new-construction').hide();
-        $('#select-exterior').addClass('active');
-        $(':not("#select-exterior")').removeClass('active');
-      });
-
-      $('#select-new-construction').on('click', function() {
-        $('#main-content-service-cards-new-construction').fadeIn("3250").css('display', 'flex');
-        $('#main-content-service-cards-exterior').hide();
-        $('#main-content-service-cards-interior').hide();
-        $('#select-new-construction').addClass('active');
-        $(':not("#select-new-construction")').removeClass('active');        
-      });
-
-      // Main Menu Collapse
-      $('#collapse-toggle-interior').on('click', function() {
-        $('#collapsed-menu-interior').slideToggle();
-        $(this).children().toggleClass("rotate"); 
-      });
-
-      $('#collapse-toggle-exterior').on('click', function() {
-        $('#collapsed-menu-exterior').slideToggle();
-        $(this).children().toggleClass("rotate"); 
-      });
-
-      $('#collapse-toggle-shed').on('click', function() {
-        $('#collapsed-menu-shed').slideToggle();
-        $(this).children().toggleClass("rotate"); 
-      });
+    // Load Templates
+    const templates = ["footer", "navbar", "contactus"];
     
-      const templates = ["footer", "navbar", "contactus"];
-      
-      templates.forEach((template) => {
-        $(`#${template}`).load(`templates/${template}.html`);
-      });
+    templates.forEach((template) => {
+    $(`#${template}`).load(`templates/${template}.html`);
+    });
+
+    //Service Selector
+    $('#select-interior').on('click', function() {
+    $('#main-content-service-cards-interior').fadeIn("3250").css('display', 'flex');
+    $('#main-content-service-cards-exterior').hide();
+    $('#main-content-service-cards-new-construction').hide();
+    $('#select-interior').addClass('active');
+    $(':not("#select-interior")').removeClass('active');
+    });
+
+    $('#select-exterior').on('click', function() {
+    $('#select-exterior').addClass('active');
+    $('#main-content-service-cards-exterior').fadeIn("3250").css('display', 'flex');
+    $('#main-content-service-cards-interior').hide();
+    $('#main-content-service-cards-new-construction').hide();
+    $('#select-exterior').addClass('active');
+    $(':not("#select-exterior")').removeClass('active');
+    });
+
+    $('#select-new-construction').on('click', function() {
+    $('#main-content-service-cards-new-construction').fadeIn("3250").css('display', 'flex');
+    $('#main-content-service-cards-exterior').hide();
+    $('#main-content-service-cards-interior').hide();
+    $('#select-new-construction').addClass('active');
+    $(':not("#select-new-construction")').removeClass('active');        
+    });
+
+    // Menu Toggle
+    $('.openbtn').on('click', function() {
+        $('.sidebar').css('display', 'block');
+    });
+
+    $('.closebtn').on('click', function() {
+        $('.sidebar').css('display', 'none');
+    });
+
+    // Main Menu Collapse
+    $('#collapse-toggle-interior').on('click', function() {
+    $('#collapsed-menu-interior').slideToggle();
+    $(this).children().toggleClass("rotate"); 
+    });
+
+    $('#collapse-toggle-exterior').on('click', function() {
+    $('#collapsed-menu-exterior').slideToggle();
+    $(this).children().toggleClass("rotate"); 
+    });
+
+    $('#collapse-toggle-shed').on('click', function() {
+    $('#collapsed-menu-shed').slideToggle();
+    $(this).children().toggleClass("rotate"); 
+    });
     
     // Set correct nav bg color on load
     if (scroll > 50) {
@@ -68,15 +78,6 @@ jQuery(document).ready(function($) {
             $("#feature-menu-2 a").css("color" , "#333");
         }
     });
-
-      // Menu Toggle
-      $('.openbtn').on('click', function() {
-          $('.sidebar').css('display', 'block');
-      });
-
-      $('.closebtn').on('click', function() {
-          $('.sidebar').css('display', 'none');
-      });
 });
 
 (function ( $, window, document, undefined ) {
