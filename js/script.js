@@ -1,4 +1,11 @@
-jQuery(document).ready(function($) {
+jQuery(document).ready(function ($) {
+    // Load Templates
+    const templates = ["footer", "navbar", "contactus"];
+    
+    templates.forEach((template) => {
+    $(`#${template}`).load(`templates/${template}.html`);
+    });
+
     //Service Selector
     $('#select-interior').on('click', function() {
       $('#main-content-service-cards-interior').fadeIn("3250").css('display', 'flex');
