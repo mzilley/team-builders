@@ -65,13 +65,16 @@ jQuery(document).ready(function ($) {
   });
 
     // Menu Toggle
-    $('.openbtn').on('click', function() {
-        $('.sidebar').css('display', 'block');
-    });
-
-    $('.closebtn').on('click', function() {
-        $('.sidebar').css('display', 'none');
-    });
+    setTimeout(function () {
+        $('.openbtn').on('click', function() {
+            $('.sidebar').css('display', 'block');
+        });
+    
+        $('.closebtn').on('click', function() {
+            $('.sidebar').css('display', 'none');
+        });
+    }, 100);
+    
 
     // Load Templates
     const templates = ["footer", "navbar", "contactus"];
