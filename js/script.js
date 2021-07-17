@@ -41,6 +41,7 @@ jQuery(document).ready(function ($) {
       $('#collapsed-menu-shed').slideToggle();
       $(this).children().toggleClass("rotate"); 
     });
+
   
   // Set correct nav bg color on load
   if (scroll > 50) {
@@ -81,6 +82,46 @@ jQuery(document).ready(function ($) {
 
     templates.forEach((template) => {
     $(`#${template}`).load(`templates/${template}.html`);
+    });
+
+    // Testimonials Slider
+    $('.testimonials').slick({
+        dots: false,
+        arrows: true,
+        infinite: true,
+        prevArrow: '<img src="/images/home/prev.png" class="prev">',
+        nextArrow: '<img src="/images/home/next.png" class="next">',
+        infinite: false,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [
+            {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false
+            }
+            },
+            {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+            }
+            },
+            {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+                arrows: false,
+                dots: true,
+                slidesToScroll: 1
+            }
+            }
+            ]
     });
 });
 
