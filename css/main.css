@@ -121,7 +121,7 @@
   }
   
   .green-link {
-    color: #9AB858;
+    color: #3f9e00;
     text-decoration: underline;
   }
   
@@ -155,7 +155,7 @@
     }
     
     .fa-youtube-play, .fa-instagram, .fa-facebook, .fa-pinterest {
-        color: #9AB858;
+        color: #3f9e00;
     }
   
     /* Buttons */
@@ -172,12 +172,12 @@
     
     .btn-primary {
       color: #fff;
-      border: 2px solid #9AB858;
-      background: #9AB858;
+      border: 2px solid #3f9e00;
+      background: #3f9e00;
     }
     
     .btn-secondary {
-      color: #9AB858;
+      color: #3f9e00;
       border: 2px solid #fff;
       background: #fff;
     }
@@ -223,7 +223,6 @@
     margin: 20px 7.5px;
     text-transform: uppercase;
     font-size: 14px;
-    /* color: #fff; */
   }
   
   #main-menu-container #feature-menu > a >span, #main-menu-container #feature-menu-2 > a >span {
@@ -283,7 +282,7 @@
 
   #main-content .btn-secondary {
     background-color: #fff;
-    color: #9AB858;
+    color: #3f9e00;
     text-shadow: none!important;
   }
   
@@ -378,7 +377,7 @@
   }
 
   .covid-accordion {
-    background: #9AB858;
+    background: #3f9e00;
     width: 100%;
     box-shadow: none;
     margin: 0 auto;
@@ -520,9 +519,9 @@
     
     .phone-number {
       padding: 12.5px;
-      background: #9AB858;
+      background: #3f9e00;
       color: #fff!important;
-      /* margin-right: 20px!important; */
+      font-size: 14px;
     }
     
     .feature-menu a {
@@ -539,7 +538,7 @@
       top: 0;
       width: 100%;
       color: #fff;
-      background: #9AB858;
+      background: #3f9e00;
       margin-bottom: 0!important;
       z-index: 999;
     }
@@ -609,7 +608,7 @@
     
     .testimonial .quote p {
         color: #fff;
-        -webkit-text-stroke: 1.25px #9AB858;
+        -webkit-text-stroke: 1.25px #3f9e00;
         padding-left: 0;
         padding-bottom: 0;
         font-size: 64px;
@@ -708,7 +707,7 @@
     .initials p {
         font-size: 60px;
         color: #fff;
-        -webkit-text-stroke: 1.75px #9AB858;
+        -webkit-text-stroke: 1.75px #3f9e00;
         font-weight: 700;
     }
     
@@ -737,10 +736,9 @@
     /* Sign Up Form */
     #mc_embed_signup_scroll {
         display: flex;
-        align-items: center;
         flex-direction: column;
         width: 60%;
-        margin: 0 auto;
+        align-items: self-end;
     }
     #mc_embed_signup label {
         color: #fff;
@@ -921,7 +919,7 @@
     padding: 15px;
     display: flex;
     margin-bottom: 15px;
-    border-right: 5px solid #9AB858;
+    border-right: 5px solid #3f9e00;
     flex-direction: column;
   }
   
@@ -1070,7 +1068,7 @@
   }
   .hero-nav span {
     padding: 15px;
-    color: #9AB858;
+    color: #3f9e00;
     font-size: 24px;
   }
   .hero-nav:before {
@@ -1125,7 +1123,7 @@
   
   /* Our Process */
   .fa-check-circle {
-    color: #9AB858;
+    color: #3f9e00;
     margin-right: 15px;
     font-size: 20px!important;
   }
@@ -1189,7 +1187,7 @@
         font-size: 16px;
         text-align: center;
         line-height: 50px;
-        background: #9AB858;
+        background: #3f9e00;
         transition: 0.3s ease-in-out all;
     }
   
@@ -1202,14 +1200,14 @@
     #referral-program-container .level {
       padding: 25px;
       margin: 15px;
-      border-top: 5px solid #9AB858;
+      border-top: 5px solid #3f9e00;
       box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 14px 2px;
       text-align: left;
     }
   
     /* Gradient Banners */
   .gradient-banner {
-      background: linear-gradient(90deg, rgb(145, 197, 96, 0.825) 0%, rgba(145, 197, 96, 1) 100%);
+      background: #3f9e00;
       color: #fff;
       font-size: 20px;
       padding: 3% 2%;
@@ -1255,7 +1253,7 @@
   
   .contact-info-container i{
       font-size: 32px;
-      color: #9AB858;
+      color: #3f9e00;
   }
   
   .siding-video {
@@ -1310,7 +1308,7 @@
   }
   
   footer #mc-embedded-subscribe {
-      background-color: #9AB858;
+      background-color: #3f9e00;
       color: #fff;
   }
   
@@ -1327,12 +1325,13 @@
   footer #mc_embed_signup input.email {
       width: 95%!important;
       background: transparent!important;
-      border: 1px solid #dadce0!important;
+      border: 1px solid #666!important;
       font-family: 'PT Sans', sans-serif;
+      padding: 10px;
   }
 
   footer #mc_embed_signup input::placeholder {
-      color: #dadce0;
+      color: #666;
   }
 /* ------ */
 /* MEDIA QUERIES */
@@ -1796,3 +1795,11 @@
     object-fit: cover;
 }
 /*  */
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+#main-menu-container .btn {
+    font-size: 14px;
+}
