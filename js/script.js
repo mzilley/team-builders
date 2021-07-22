@@ -74,7 +74,7 @@ jQuery(document).ready(function ($) {
         $('.closebtn').on('click', function() {
             $('.sidebar').css('display', 'none');
         });
-    }, 100);
+    }, 250);
     
 
     // Load Templates
