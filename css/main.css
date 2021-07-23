@@ -156,7 +156,7 @@
     
     .fa-youtube-play, .fa-instagram, .fa-facebook, .fa-pinterest {
         color: #3f9e00;
-        font-size: 20px;
+        font-size: 20px!important;
     }
   
     /* Buttons */
