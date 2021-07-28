@@ -1858,9 +1858,7 @@
     padding-top: 0;
 }
 
-
-
-.active {
+.filter .active {
     background-color: #3f9e00;
     color: #fff;
 }
@@ -1890,26 +1888,26 @@
 }
   
   
-  .filter-btns {
+.filter-btns {
     padding: 2px 0;
     text-align: center
-  }
-  .gallery {
+}
+.gallery {
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
       margin-bottom: 10%;
-  }
+}
   
-  .gallery a img {
+.gallery a img {
     width: 95%;
     height: auto;
     float: left;
     margin-bottom: 12px;
-  }
+}
 
 
-  .gallery a {
+.gallery a {
     /* transition: all 0.3s; */
     display: block;
     float: left;
@@ -1917,10 +1915,10 @@
     height: auto;
     display: flex;
     justify-content: center;
-  }
+}
   
-  .gallery .hide {
+.gallery .hide {
     width: 0%;
     opacity: 0;
     /* transition: all 0.2s; */
-  }
+}
