@@ -85,6 +85,10 @@ jQuery(document).ready(function ($) {
         // add active class to clicked element
         $(this).addClass('active');
         a = a.substr(1);
+        // Scroll to top of gallery
+        var $scrollTo = $('.gallery');
+        $('html,body').animate({ scrollTop: $scrollTo.offset().top - 300 });
+        
         $('.gallery img').each(function() {
             if (!$(this).hasClass(a) && a != 'all')
                 $(this).addClass('hide')
@@ -98,7 +102,7 @@ jQuery(document).ready(function ($) {
         var filterContainerPos = filterContainer.position();                    
         $(window).scroll(function() {
         var windowpos = $(window).scrollTop();
-        if (windowpos >= filterContainerPos.top) {
+        if (windowpos >= filterContainerPos.top + 350) {
             filterContainer.addClass("stick");
         } else {
             filterContainer.removeClass("stick"); 

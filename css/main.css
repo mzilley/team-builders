@@ -1836,8 +1836,8 @@
     padding-top: 0;
 }
 
-/* .stick {
-    transition: 0.3s ease-in-out all;
+.stick {
+    transition: 0.4s ease-in-out all;
 }
 
 .stick {
@@ -1850,9 +1850,13 @@
 }
 
 .stick .btn-outline {
-    padding: 3.5px 15px;
+    padding: 2px 15px;
     margin: 2px;
-} */
+}
+
+.stick ~ .gallery {
+    margin-top: 150px;
+}
 
 .active {
     background-color: #3f9e00;
