@@ -26,21 +26,7 @@ jQuery(document).ready(function ($) {
       $(':not("#select-new-construction")').removeClass('active');        
     });
 
-    // Main Menu Collapse
-    $('#collapse-toggle-interior').on('click', function() {
-      $('#collapsed-menu-interior').slideToggle();
-      $(this).children().toggleClass("rotate"); 
-    });
 
-    $('#collapse-toggle-exterior').on('click', function() {
-      $('#collapsed-menu-exterior').slideToggle();
-      $(this).children().toggleClass("rotate"); 
-    });
-
-    $('#collapse-toggle-shed').on('click', function() {
-      $('#collapsed-menu-shed').slideToggle();
-      $(this).children().toggleClass("rotate"); 
-    });
 
   
   
@@ -76,6 +62,21 @@ jQuery(document).ready(function ($) {
         $('.closebtn').on('click', function() {
             $('.sidebar').css('display', 'none');
         });
+            // Main Menu Collapse
+        $('#collapse-toggle-interior').on('click', function() {
+            $('#collapsed-menu-interior').slideToggle();
+            $(this).children().toggleClass("rotate"); 
+        });
+  
+      $('#collapse-toggle-exterior').on('click', function() {
+            $('#collapsed-menu-exterior').slideToggle();
+            $(this).children().toggleClass("rotate"); 
+      });
+  
+      $('#collapse-toggle-shed').on('click', function() {
+            $('#collapsed-menu-shed').slideToggle();
+            $(this).children().toggleClass("rotate"); 
+      });
     }, 250);
 
     $('.filter a').click(function(e) {
@@ -87,7 +88,7 @@ jQuery(document).ready(function ($) {
         a = a.substr(1);
         // Scroll to top of gallery
         var $scrollTo = $('.gallery');
-        $('html,body').animate({ scrollTop: $scrollTo.offset().top - 300 });
+        $('html,body').animate({ scrollTop: $scrollTo.offset().top - 325 });
         
         $('.gallery img').each(function() {
             if (!$(this).hasClass(a) && a != 'all')
@@ -102,7 +103,7 @@ jQuery(document).ready(function ($) {
         var filterContainerPos = filterContainer.position();                    
         $(window).scroll(function() {
         var windowpos = $(window).scrollTop();
-        if (windowpos >= filterContainerPos.top + 350) {
+        if (windowpos >= filterContainerPos.top + 375) {
             filterContainer.addClass("stick");
         } else {
             filterContainer.removeClass("stick"); 
