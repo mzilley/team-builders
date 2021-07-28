@@ -873,6 +873,7 @@
   
   .our-work-image {
     width: 48%;
+    padding: 5px;
     max-height: 400px;
     object-fit: cover;
   }
@@ -1059,6 +1060,10 @@
   
   .hero-nav.event {
     background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/event-venues/event-venue-1.png);
+  }
+
+  .hero-nav.garages {
+    background-image: url(https://teambuilders-media.s3.us-east-2.amazonaws.com/work/shed-houses/IMG_0115.jpg);
   }
   
   .hero-nav.team {
@@ -1430,9 +1435,6 @@
     }
     #bio-reverse {
       flex-direction: row-reverse;
-    }
-    #main-content-service-cards-new-construction .service-card {
-        width: 50%;
     }
     .mobile-tel {
         display: none;
@@ -1884,7 +1886,7 @@
 .filter-by .btn {
     flex-grow: 1;
     width: 17.5%;
-    margin: 2.5px;
+    margin: 1px;
 }
   
   
