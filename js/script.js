@@ -43,14 +43,9 @@ jQuery(document).ready(function ($) {
     });
 
   
-  // Set correct nav bg color on load
-  if (scroll > 50) {
-      $("nav").css("background-color", "rgba(255,255,255)");
-  } else {
-      $("nav").css("background-color", "rgba(255,255,255, 0.75)");  
-  }
+  
 
-  $(window).scroll(function(){
+    $(window).scroll(function(){
       var scroll = $(window).scrollTop();
       if (scroll > 50) {
           $("nav").css("background-color", "rgba(255,255,255)");
@@ -63,7 +58,14 @@ jQuery(document).ready(function ($) {
           $("#feature-menu a").css("color", "#333");
           $("#feature-menu-2 a").css("color" , "#333");
       }
-  });
+    });
+    
+    // Set correct nav bg color on load
+    if (scroll > 50) {
+        $("nav").css("background-color", "rgba(255,255,255)");
+    } else {
+        $("nav").css("background-color", "rgba(255,255,255, 0.75)");  
+    }
 
     // Menu Toggle
     setTimeout(function () {
@@ -75,7 +77,33 @@ jQuery(document).ready(function ($) {
             $('.sidebar').css('display', 'none');
         });
     }, 250);
-    
+
+    $('.filter a').click(function(e) {
+        e.preventDefault();
+        var a = $(this).attr('href');
+        $('.active').removeClass('active')
+        // add active class to clicked element
+        $(this).addClass('active');
+        a = a.substr(1);
+        $('.gallery img').each(function() {
+            if (!$(this).hasClass(a) && a != 'all')
+                $(this).addClass('hide')
+            else
+                $(this).removeClass('hide');
+        });
+        
+    });
+
+    var filterContainer = $("#filter-container");
+        var filterContainerPos = filterContainer.position();                    
+        $(window).scroll(function() {
+        var windowpos = $(window).scrollTop();
+        if (windowpos >= filterContainerPos.top) {
+            filterContainer.addClass("stick");
+        } else {
+            filterContainer.removeClass("stick"); 
+        }
+    });
 
     // Load Templates
     const templates = ["footer", "navbar", "contactus"];
@@ -428,9 +456,5 @@ $('.our-work-accordion').accordion({
 });
 
 $('.roofing-accordion').accordion({
-  "transitionSpeed": 400
-});
-
-$('.covid-accordion').accordion({
   "transitionSpeed": 400
 });
