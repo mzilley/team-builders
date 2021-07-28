@@ -1336,6 +1336,7 @@
   footer #mc-embedded-subscribe {
       background-color: #3f9e00;
       color: #fff;
+      width: 310px;
   }
   
   footer #mc_embed_signup form {
@@ -1353,6 +1354,7 @@
       border: 1px solid #666!important;
       font-family: 'PT Sans', sans-serif;
       padding: 10px;
+      width: 310px;
   }
 
   footer #mc_embed_signup input::placeholder {
@@ -1386,9 +1388,6 @@
     }
     #main-content-service-selector-wrapper {
       top: 75vh!important;
-    }
-    footer #mc_embed_signup input.email {
-        max-width: 50%;
     }
   }
 
