@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Client Feedback Form | T.E.A.M. Builders Ltd.</title>
@@ -9,41 +9,79 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
-
     <meta name="description" content="Home Remodeling Contractor in Cedar Falls, IA and Cedar Rapids, IA">
     <!-- Global site tag (gtag.js) - Google Analytics -->
-   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-188956910-1">
-   </script>
-   <script>
-   window.dataLayer = window.dataLayer || [];
-   function gtag(){dataLayer.push(arguments);}
-   gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-188956910-1">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-   gtag('config', 'UA-188956910-1');
-   </script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-188956910-1');
+    </script>
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '558217371893197');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" src="https://www.facebook.com/tr?id=558217371893197&ev=PageView
+        &noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+    <script id="mcjs">
+        ! function (c, h, i, m, p) {
+            m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(
+                m, p)
+        }(document, "script",
+            "https://chimpstatic.com/mcjs-connected/js/users/3505b437145ee33b184d2b30a/4b299f4ad6c300bf5979542d3.js");
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.min.js"></script>
 
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/3505b437145ee33b184d2b30a/4b299f4ad6c300bf5979542d3.js");</script>
-  <script src="js/script.min.js"></script>
+</head>
 
-  </head>
-  <body>
+<body>
     <!-- <div id="preloader"></div> -->
     <nav id="navbar"></nav>
-        <div class="hero-nav team">
+    <div class="hero-nav team">
         <div class="hero-nav__inner">
-        <h1>Let Us Know How We're Doing</h1>
-        <a class="btn btn-primary calendly-scheduler" href="tel:3194818326">Call (319) 481-8326</a>
+            <h1>Let Us Know How We're Doing</h1>
+            <a class="btn btn-primary calendly-scheduler" href="tel:3194818326">Call (319) 481-8326</a>
         </div>
-        </div>
+    </div>
     <div class="subpage">
-      <br />
-      <div id="client-feedback-form">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfXX7PRKeBuWMnPlSIvqXnNTrIx4kF6Iiv5idIdqndB9VLVjw/viewform?embedded=true" width="670" height="3000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-      </div>
+        <br />
+        <div id="client-feedback-form">
+            <iframe
+                src="https://docs.google.com/forms/d/e/1FAIpQLSfXX7PRKeBuWMnPlSIvqXnNTrIx4kF6Iiv5idIdqndB9VLVjw/viewform?embedded=true"
+                width="670" height="3000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
     </div>
     <br />
-  <footer id="footer">
-  </footer>
-  </body>
+    <footer id="footer">
+    </footer>
+</body>
+
 </html>
