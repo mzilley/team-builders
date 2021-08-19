@@ -26,11 +26,6 @@ jQuery(document).ready(function ($) {
       $(':not("#select-new-construction")').removeClass('active');        
     });
 
-
-
-  
-  
-
     $(window).scroll(function(){
       var scroll = $(window).scrollTop();
       if (scroll > 50) {
@@ -81,27 +76,26 @@ jQuery(document).ready(function ($) {
             $('#collapsed-menu-shed').slideToggle();
             $(this).children().toggleClass("rotate"); 
       });
-    }, 250);
+    }, 100);
 
-    $('.filter a').click(function(e) {
-        e.preventDefault();
-        var a = $(this).attr('href');
-        $('.active').removeClass('active')
-        // add active class to clicked element
-        $(this).addClass('active');
-        a = a.substr(1);
-        // Scroll to top of gallery
-        var $scrollTo = $('.gallery');
-        $('html,body').animate({ scrollTop: $scrollTo.offset().top - 325 });
+    // $('.filter a').click(function(e) {
+    //     e.preventDefault();
+    //     var a = $(this).attr('href');
+    //     $('.active').removeClass('active')
+    //     // add active class to clicked element
+    //     $(this).addClass('active');
+    //     a = a.substr(1);
+    //     // Scroll to top of gallery
+    //     var $scrollTo = $('.gallery');
+    //     $('html,body').animate({ scrollTop: $scrollTo.offset().top - 325 });
         
-        $('.gallery img').each(function() {
-            if (!$(this).hasClass(a) && a != 'all')
-                $(this).addClass('hide')
-            else
-                $(this).removeClass('hide');
-        });
-        
-    });
+    //     $('.gallery img').each(function() {
+    //         if (!$(this).hasClass(a) && a != 'all')
+    //             $(this).addClass('hide')
+    //         else
+    //             $(this).removeClass('hide');
+    //     }); 
+    // });
 
     var filterContainer = $("#filter-container");
         var filterContainerPos = filterContainer.position();                    
