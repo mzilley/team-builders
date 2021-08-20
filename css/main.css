@@ -158,6 +158,11 @@
         color: #3f9e00;
         font-size: 22px!important;
         padding: 0 5px;
+        transition: 0.3s ease-in-out all;
+    }
+
+    .fa-youtube-play:hover, .fa-instagram:hover, .fa-facebook:hover, .fa-pinterest:hover {
+        transform: scale(1.1);
     }
   
     /* Buttons */
