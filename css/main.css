@@ -794,6 +794,9 @@
           color: #fff;
           text-decoration: underline;
       }
+      .phone-number span:last-child {
+          display: none;
+      }
     }
 
 /* Employment App Form */
