@@ -1885,6 +1885,7 @@
 .filter-by .btn {
     flex-grow: 1;
     width: 17.5%;
+    margin: 1.5px;
 }
   
   
