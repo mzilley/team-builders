@@ -74,6 +74,7 @@
             $('.openbtn').css('visibility', 'hidden');
             $('.closebtn').css('opacity', '1');
             $('.closebtn').css('visibility', 'visible');
+            $('body').css('position', 'fixed');
         });
     
         $('.closebtn').on('click', function() {
@@ -82,5 +83,6 @@
             $('.openbtn').css('visibility', 'visible');
             $('.closebtn').css('opacity', '0');
             $('.closebtn').css('visibility', 'hidden');
+            $('body').css('position', 'inherit');
         });
 </script>
