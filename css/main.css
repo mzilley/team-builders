@@ -1259,12 +1259,12 @@
     .gradient-banner span {
       text-align: center;
       margin-right: 15px;
-      width: 75%;
     }
     
     .gradient-content {
       display: flex;
       align-items: center;
+      justify-content: center;
     }
   
     .contact-info-container {
