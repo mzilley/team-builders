@@ -804,7 +804,7 @@
           text-decoration: underline;
       }
       .phone-number {
-          padding: 0;
+          padding: 10px 20px;
       }
       .phone-number .fa-phone {
           padding-right: 7.5px;
