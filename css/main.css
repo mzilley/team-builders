@@ -1907,9 +1907,7 @@
     margin-bottom: 12px;
 }
 
-
 .gallery a {
-    /* transition: all 0.3s; */
     display: block;
     float: left;
     opacity: 1;
@@ -1921,5 +1919,10 @@
 .gallery .hide {
     width: 0%;
     opacity: 0;
-    /* transition: all 0.2s; */
 }
+:target:before {
+    content:"";
+    display:block;
+    height:125px; /* fixed header height*/
+    margin:-125px 0 0; /* negative fixed header height */
+    }
