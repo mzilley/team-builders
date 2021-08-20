@@ -542,6 +542,13 @@
       color: #fff!important;
       font-size: 14px;
     }
+
+    .phone-number span:nth-child(2) {
+        display: none;
+    }
+    .phone-number span:last-child {
+      display: block;
+    }
     
     .feature-menu a {
       border-right: 1px solid #999;
@@ -794,8 +801,11 @@
           color: #fff;
           text-decoration: underline;
       }
-      .phone-number span:last-child {
+      .phone-number span:nth-child(2) {
           display: none;
+      }
+      .phone-number span:last-child {
+        display: block;
       }
     }
 
