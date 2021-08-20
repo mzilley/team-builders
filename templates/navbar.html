@@ -66,3 +66,21 @@
     </div>
     <button class="openbtn"><img src="images/home/menu.png"></button>
 </div>
+
+<script>
+    $('.openbtn').on('click', function() {
+            $('.sidebar').css('right', '0');
+            $('.openbtn').css('opacity', '0');
+            $('.openbtn').css('visibility', 'hidden');
+            $('.closebtn').css('opacity', '1');
+            $('.closebtn').css('visibility', 'visible');
+        });
+    
+        $('.closebtn').on('click', function() {
+            $('.sidebar').css('right', '-375px');
+            $('.openbtn').css('opacity', '1');
+            $('.openbtn').css('visibility', 'visible');
+            $('.closebtn').css('opacity', '0');
+            $('.closebtn').css('visibility', 'hidden');
+        });
+</script>

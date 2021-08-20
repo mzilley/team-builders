@@ -50,17 +50,7 @@ jQuery(document).ready(function ($) {
 
     // Menu Toggle
     setTimeout(function () {
-        $('.openbtn').on('click', function() {
-            $('.sidebar').css('display', 'block');
-            $('.openbtn').css('display', 'none');
-            $('.closebtn').css('display', 'block');
-        });
-    
-        $('.closebtn').on('click', function() {
-            $('.sidebar').css('display', 'none');
-            $('.openbtn').css('display', 'block');
-            $('.closebtn').css('display', 'none');
-        });
+        
             // Main Menu Collapse
         $('#collapse-toggle-interior').on('click', function() {
             $('#collapsed-menu-interior').slideToggle();

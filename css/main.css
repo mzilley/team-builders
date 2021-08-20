@@ -443,16 +443,12 @@
     height: 125px;
     background: transparent;
   }
-
-  .sidebar{
-      display: none;
-  }
     
     /* Main Menu */
     #main-menu {
       width: 375px;
       z-index: 3;
-      transition: 0.3s all ease-in-out;
+      transition: 0.35s all ease-in-out;
     }
     .sidebar {
       height: 100%;
@@ -460,7 +456,7 @@
       position: fixed;
       z-index: 1;
       top: 0;
-      right: 0;
+      right: -375px;
       background-color: #f9f9f9;
       overflow-x: hidden;
       transition: 0.5s;
@@ -506,9 +502,9 @@
       background: transparent;
     }
     
-    .openbtn {
-      padding-left: 0px!important;
-    }
+    /* .openbtn {
+      width: 100%;
+    } */
     
     .openbtn:hover, .closebtn:hover {
       color: #999;
