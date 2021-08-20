@@ -157,6 +157,7 @@
     .fa-youtube-play, .fa-instagram, .fa-facebook, .fa-pinterest {
         color: #3f9e00;
         font-size: 22px!important;
+        padding: 0 5px;
     }
   
     /* Buttons */
@@ -222,7 +223,7 @@
     background: transparent;
 }
   #main-nav-logo {
-    padding: 0 35px;
+    padding-left: 35px;
   }
   
   #feature-menu, #feature-menu-2, #feature-menu-3 {
@@ -236,6 +237,7 @@
 
   #main-menu-container {
     display: flex;
+    align-items: center;
   }
   
   #main-menu-container #feature-menu > a, #main-menu-container #feature-menu-2 > a  {
@@ -438,7 +440,7 @@
   }
 
   .home nav {
-    top: 36px;
+    top: 35px;
     margin: 20px auto;
     height: 125px;
     background: transparent;
@@ -484,11 +486,6 @@
       font-size: 24px;
       margin-left: 40px;
       padding-left: 0!important;
-    }
-
-    .sidebar .openbtn img {
-        width: 40px;
-        height: 30px;
     }
     
     .sidebar .closebtn {
@@ -546,13 +543,18 @@
       font-size: 14px;
       display: flex;
       align-items: center;
+      margin-left: 5px;
+    }
+
+    .phone-number .fa-phone {
+        padding-right: 7.5px;
     }
 
     .phone-number span:nth-child(2) {
-        display: none;
+        display: block;
     }
     .phone-number span:last-child {
-      display: block;
+      display: none;
     }
     
     .feature-menu a {
@@ -812,11 +814,8 @@
       .phone-number .fa-phone {
           padding-right: 7.5px;
       }
-      .phone-number span:nth-child(2) {
-          display: none;
-      }
-      .phone-number span:last-child {
-        display: block;
+      #social-menu {
+        display: none;
       }
     }
 
@@ -1493,6 +1492,12 @@
     #feature-menu-3 {
         display: none;
     }
+    .phone-number span:nth-child(2) {
+        display: none;
+    }
+    .phone-number span:last-child {
+      display: block;
+    }
   }
   
   @media (max-width: 768px) {
@@ -1806,9 +1811,6 @@
   }
   
   @media (max-width: 992px) {
-      #social-menu {
-          display: none;
-      }
       #below-main-content-section {
           flex-direction: column;
           text-align: center;
