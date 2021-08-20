@@ -487,8 +487,11 @@
     }
     
     .sidebar .closebtn {
-      font-size: 24px;
-      margin-left: 75%;
+        font-size: 24px;
+        margin-left: 75%;
+        position: absolute;
+        right: 5%;
+        top: 3.25%;
     }
     
     .sidebar .closebtn:hover {
