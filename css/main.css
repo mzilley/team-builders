@@ -734,7 +734,6 @@
       margin-top: 5%;
     }
   
-    /* Make your house look like new section */
     #below-main-content-section {
       display: flex;
       justify-content: space-between;
@@ -1784,7 +1783,10 @@
       #social-menu {
           display: none;
       }
-     
+      #below-main-content-section {
+          flex-direction: column;
+          text-align: center;
+      }
       .our-work-accordion img {
         width: 100%!important;
         padding-left: 0;
