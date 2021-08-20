@@ -438,7 +438,7 @@
   }
 
   .home nav {
-    top: 62px;
+    top: 36px;
     margin: 20px auto;
     height: 125px;
     background: transparent;
@@ -1476,7 +1476,7 @@
           overflow-x: hidden;
       }
       .home nav {
-          top: 46px;
+          top: 20px;
       }
       #feature-menu, #main-menu-container .elfsight-app-f4d6485e-4d7d-4d31-a35e-2a08784256cc {
           display: none;

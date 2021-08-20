@@ -30,6 +30,7 @@ jQuery(document).ready(function ($) {
       var scroll = $(window).scrollTop();
       if (scroll > 50) {
           $("nav").css("background-color", "rgba(255,255,255)");
+          $("nav").css("box-shadow", "rgb(0 0 0) 0px 0px 10px -5px");
           $("#feature-menu a").css("color", "#666");
           $("#feature-menu-2 a").css("color" , "#666");
       }
