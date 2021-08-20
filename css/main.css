@@ -485,13 +485,18 @@
       margin-left: 40px;
       padding-left: 0!important;
     }
+
+    .sidebar .openbtn img {
+        width: 40px;
+        height: 30px;
+    }
     
     .sidebar .closebtn {
         font-size: 24px;
         margin-left: 75%;
         position: absolute;
         right: 0;
-        top: 35px;s
+        top: 35px;
     }
     
     .sidebar .closebtn:hover {
@@ -504,11 +509,9 @@
       padding: 0px 35px;
       border: none;
       background: transparent;
+      display: flex;
+      align-items: center;
     }
-    
-    /* .openbtn {
-      width: 100%;
-    } */
     
     .openbtn:hover, .closebtn:hover {
       color: #999;
@@ -1778,6 +1781,9 @@
     }
     .feature-container .feature {
       width: 75%;
+    }
+    .phone-number {
+        display: none;
     }
       /* Forms */
     [class^="form-column"] {
