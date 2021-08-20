@@ -48,26 +48,6 @@ jQuery(document).ready(function ($) {
         $("nav").css("background-color", "rgba(255,255,255, 0.75)");  
     }
 
-    // Menu Toggle
-    setTimeout(function () {
-        
-            // Main Menu Collapse
-        $('#collapse-toggle-interior').on('click', function() {
-            $('#collapsed-menu-interior').slideToggle();
-            $(this).children().toggleClass("rotate"); 
-        });
-  
-      $('#collapse-toggle-exterior').on('click', function() {
-            $('#collapsed-menu-exterior').slideToggle();
-            $(this).children().toggleClass("rotate"); 
-      });
-  
-      $('#collapse-toggle-shed').on('click', function() {
-            $('#collapsed-menu-shed').slideToggle();
-            $(this).children().toggleClass("rotate"); 
-      });
-    }, 100);
-
     // $('.filter a').click(function(e) {
     //     e.preventDefault();
     //     var a = $(this).attr('href');
