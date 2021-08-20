@@ -1406,7 +1406,7 @@
     }
     
     .stick .btn-outline {
-        padding: 2px 15px;
+        padding: 5px 15px;
         margin: 2px;
     }
     
@@ -1885,7 +1885,6 @@
 .filter-by .btn {
     flex-grow: 1;
     width: 17.5%;
-    margin: 1px;
 }
   
   
