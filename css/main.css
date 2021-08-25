@@ -1961,3 +1961,51 @@
     height:125px; /* fixed header height*/
     margin:-125px 0 0; /* negative fixed header height */
     }
+
+/* Social Landing Page */
+
+#landing {
+    height: 100vh;
+}
+
+.landing-hero {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.landing-hero img {
+    height: 100vh;
+}
+
+.landing-content {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 5%;
+    position: absolute;
+    width: 75%;
+    height: 65%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.landing-content h1 {
+    margin-bottom: 5px;
+}
+
+.landing-hero-text {
+    text-align: center;
+}
+
+.landing-hero-text a {
+    margin-top: 20px;
+}
+
+.landing-content .social {
+    display: flex;
+    align-items: center;
+}
