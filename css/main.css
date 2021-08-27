@@ -822,6 +822,9 @@
       #social-menu {
         display: none;
       }
+      .landing-content .social {
+          display: block!important;
+      }
     }
 
 /* Employment App Form */
@@ -2007,4 +2010,13 @@
 .landing-content .social {
     display: flex;
     align-items: center;
+}
+
+.landing-content .btn {
+    padding: 15px 35px;
+    font-size: 20px;
+}
+
+.social #social-menu {
+    display: block;
 }
