@@ -49,36 +49,6 @@ jQuery(document).ready(function ($) {
         $("nav").css("background-color", "rgba(255,255,255, 0.75)");  
     }
 
-    // $('.filter a').click(function(e) {
-    //     e.preventDefault();
-    //     var a = $(this).attr('href');
-    //     $('.active').removeClass('active')
-    //     // add active class to clicked element
-    //     $(this).addClass('active');
-    //     a = a.substr(1);
-    //     // Scroll to top of gallery
-    //     var $scrollTo = $('.gallery');
-    //     $('html,body').animate({ scrollTop: $scrollTo.offset().top - 325 });
-        
-    //     $('.gallery img').each(function() {
-    //         if (!$(this).hasClass(a) && a != 'all')
-    //             $(this).addClass('hide')
-    //         else
-    //             $(this).removeClass('hide');
-    //     }); 
-    // });
-
-    var filterContainer = $("#filter-container");
-        var filterContainerPos = filterContainer.position();                    
-        $(window).scroll(function() {
-        var windowpos = $(window).scrollTop();
-        if (windowpos >= filterContainerPos.top + 375) {
-            filterContainer.addClass("stick");
-        } else {
-            filterContainer.removeClass("stick"); 
-        }
-    });
-
     // Load Templates
     const templates = ["footer", "navbar", "contactus"];
 

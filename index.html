@@ -73,6 +73,30 @@
 </head>
 
 <body class="home">
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+    window.fbAsyncInit = function() {
+    FB.init({
+        xfbml            : true,
+        version          : 'v11.0'
+    });
+    };
+
+    (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat"
+    attribution="install_email"
+    attribution_version="biz_inbox"
+    page_id="206984746319635">
+    </div>
     <div class="covid-accordion alert" data-accordion>
         <a href="/insurance-claims" class="insurance-claims-alert">Need help with an insurance claim?</a>
     </div>
