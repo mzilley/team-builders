@@ -1,4 +1,89 @@
 <!DOCTYPE html>
 <h4 class="h1">Contact Us</h4>
 <p>Contact us directly or simply fill out the form below and we will get back to you within one business day.</p>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc2FD99E6U5OZdgB1uQIF_ft4psG16ffpUdq07wdPat_M_QMw/viewform?embedded=true" width="640" height="1380" frameborder="0" marginheight="0" marginwidth="0" loading="lazy">Loading…</iframe>
+<!--  ------------------ AccuLynx Web-to-Lead Form Start -------------------  -->
+<div class='webLeadForm__outerDiv'>
+    <form id='webLeadFormElem' class='webLeadForm__form' onsubmit='return webLeadFormSubmit(event)'>
+        <div class='webLeadForm__fieldDiv'>
+            <div class='webLeadForm__label'><label for='FirstName'>First Name *</label></div>
+            <div class='webLeadForm__inputDiv'><input class='webLeadForm__input' id='FirstName' type='text' maxlength=255 name='FirstName' required /></div>
+        </div>
+
+        <div class='webLeadForm__fieldDiv'>
+            <div class='webLeadForm__label'><label for='LastName'>Last Name *</label></div>
+            <div class='webLeadForm__inputDiv'><input class='webLeadForm__input' id='LastName' type='text' maxlength=255 name='LastName' required /></div>
+        </div>
+
+        <div class='webLeadForm__fieldDiv'>
+            <div class='webLeadForm__label'><label for='Email'>Email *</label></div>
+            <div class='webLeadForm__inputDiv'><input class='webLeadForm__input' id='Email' type='text' maxlength=255 name='Email' required /></div>
+        </div>
+
+        <div class='webLeadForm__fieldDiv'>
+            <div class='webLeadForm__label'><label for='Company'>Company</label></div>
+            <div class='webLeadForm__inputDiv'><input class='webLeadForm__input' id='Company' type='text' maxlength=255 name='Company' /></div>
+        </div>
+
+        <div class='webLeadForm__fieldDiv'>
+            <div class='webLeadForm__label'><label for='Phone'>Phone *</label></div>
+            <div class='webLeadForm__inputDiv'><input class='webLeadForm__input' id='Phone' type='text' maxlength=255 name='Phone' required /></div>
+        </div>
+
+        <div class='webLeadForm__fieldDiv'>
+            <div class='webLeadForm__label'><label for='Street'>Street *</label></div>
+            <div class='webLeadForm__inputDiv'><input class='webLeadForm__input' id='Street' type='text' maxlength=255 name='Street' required /></div>
+        </div>
+
+        <div class='webLeadForm__fieldDiv'>
+            <div class='webLeadForm__label'><label for='City'>City *</label></div>
+            <div class='webLeadForm__inputDiv'><input class='webLeadForm__input' id='City' type='text' maxlength=255 name='City' required /></div>
+        </div>
+
+        <div class='webLeadForm__stateZipDiv'>
+            <div class='webLeadForm__fieldDiv'>
+                <div class='webLeadForm__label'><label for='State'>State / Prov *</label></div>
+                <div class='webLeadForm__inputDiv'><input class='webLeadForm__input' id='State' type='text' maxlength=255 name='State' required /></div>
+            </div>
+            <div class='webLeadForm__fieldDiv'>
+                <div class='webLeadForm__label'><label for='Zip'>Zip *</label></div>
+                <div class='webLeadForm__inputDiv'><input class='webLeadForm__input' id='Zip' type='text' maxlength=255 name='Zip' required /></div>
+            </div>
+        </div>
+
+        <div class='webLeadForm__fieldDiv'>
+            <div class='webLeadForm__label'><label for='Message'>Message *</label></div>
+            <textarea form='webLeadFormElem' class='webLeadForm__input' id='Message' maxlength=255 rows='6' name='Message' required></textarea>
+        </div>
+
+        <div class='webLeadForm__submitDiv'>
+            <input class='webLeadForm__submit' type='submit' name='submit' value='Submit' />
+            <span class='webLeadForm__label webLeadForm__requiredLabel'> * Required </span>
+        </div>
+    </form>
+    <div id='webLeadFormMessageElem' class='webLeadForm__messageSentDiv'>
+        <div class='webLeadForm__messageSent'>Your message was sent!</div>
+        <div class='webLeadForm__successMessage'>Thanks for your info! Our Office Admin at T.E.A.M. Builders will be in touch!</div>
+    </div>
+</div>
+
+<script>
+    function webLeadFormSubmit(event) {
+       event.preventDefault();
+       document.getElementsByClassName('webLeadForm__submit')[0].disabled = true;
+       const leadData = new FormData(event.target);
+       const fetchPromise = fetch('https://leads.acculynx.com/api/leads/submit-new-lead?formID=a691908e-d279-4979-8814-976d06a53d4f', { method:'post', mode:'no-cors', body: leadData});
+       fetchPromise.then(response => {
+          console.log('WebLeadForm Submit Success');
+          console.log(response);
+          document.getElementById('webLeadFormElem').style.visibility = 'hidden';
+          document.getElementById('webLeadFormMessageElem').style.display = 'flex';
+       })
+       .catch(error => {
+          console.log('WebLeadForm Submit Error: ' + error);
+          document.getElementsByClassName('webLeadForm__submit')[0].disabled = false;
+       });
+       return false;
+    }
+</script>
+
+<!--  ------------------- AccuLynx Web-to-Lead Form End --------------------  -->
