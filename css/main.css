@@ -825,6 +825,9 @@
       .landing-content .social {
           display: block!important;
       }
+      .webLeadForm__outerDiv {
+          width: 300px;
+      }
     }
 
 /* Employment App Form */
